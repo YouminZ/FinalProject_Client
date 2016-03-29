@@ -50,6 +50,26 @@ angular
         controller: 'Player2Ctrl',
         controllerAs: 'player2'
       })
+      .when('/playermanage', {
+        templateUrl: 'views/playermanage.html',
+        controller: 'PlayerManageCtrl',
+        controllerAs: 'playermanage'
+      })
+      .when('/optpool', {
+        templateUrl: 'views/optpool.html',
+        controller: 'OptPoolCtrl',
+        controllerAs: 'optpool'
+      })
+      .when('/managepool', {
+        templateUrl: 'views/managepool.html',
+        controller: 'ManagePoolCtrl',
+        controllerAs: 'managepool'
+      })
+      .when('/inputresults', {
+        templateUrl: 'views/inputresults.html',
+        controller: 'InputResultsCtrl',
+        controllerAs: 'inputresults'
+      })
       .otherwise({
         redirectTo: '/'
       });
