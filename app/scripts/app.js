@@ -25,6 +25,26 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/contactus', {
+        templateUrl: 'views/contactus.html',
+        controller: 'ContactUsCtrl',
+        controllerAs: 'contactus'
+      })
+      .when('/faqs', {
+        templateUrl: 'views/faqs.html',
+        controller: 'FaqsCtrl',
+        controllerAs: 'faqs'
+      })
+      .when('/registration', {
+        templateUrl: 'views/registration.html',
+        controller: 'RegistrationCtrl',
+        controllerAs: 'registration'
+      })
+      .when('/playerprofile', {
+        templateUrl: 'views/playerprofile.html',
+        controller: 'PlayerProfileCtrl',
+        controllerAs: 'playerprofile'
+      })
       .otherwise({
         redirectTo: '/'
       });
