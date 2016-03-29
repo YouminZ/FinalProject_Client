@@ -45,6 +45,11 @@ angular
         controller: 'PlayerProfileCtrl',
         controllerAs: 'playerprofile'
       })
+      .when('/player2', {
+        templateUrl: 'views/player2.html',
+        controller: 'Player2Ctrl',
+        controllerAs: 'player2'
+      })
       .otherwise({
         redirectTo: '/'
       });
