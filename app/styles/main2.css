@@ -43,6 +43,15 @@ a:visited{
 
 }
 
+.navbar-nav > li > .dropdown-menu{
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #333333;
+}
+.dropdown-menu > li > a:hover{
+  background-color: #333333!important;
+}
 .header{
   color: #65EA6D;
 }
