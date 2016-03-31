@@ -9,19 +9,19 @@
           </div>
         </div>
         <br>
-        <form class="form">
+        <form class="form" name="registerForm" ng-submit="register()" ng-init="user{}">
           <div class="row">
             <div class="col-sm-6">
-              <input type="text" class="form-control" id="fName" placeholder="First Name">
+              <input type="text" class="form-control" name="firstName" placeholder="First Name" ng-model="user.firstName">
             </div>
             <div class="col-sm-6">
-              <input type="text" class="form-control" id="lName" placeholder="Last Name">
+              <input type="text" class="form-control" name="lastName" placeholder="Last Name" ng-model="user.lastName">
             </div>
           </div>
 
           <div class="row">
             <div class="col-sm-5">
-              <input type="text" class="form-control" id="gameTag" placeholder="Gamer Tag">
+              <input type="text" class="form-control" name="gamerTag" placeholder="Gamer Tag" ng-model="user.gamerTag">
             </div>
             <div class="radButtons">
               <div class="col-sm-7">
@@ -46,7 +46,7 @@
               <label>Date of Birth</label>
             </div>
             <div class="col-sm-4">
-              <select class="form-control" name="month" id="dobMonth">
+              <select class="form-control" name="month" id="dobMonth" ng-model="user.dobMonth">
                 <option value="" disabled selected>Month</option>
                 <option value="01">January</option>
                 <option value="02">February</option>
@@ -63,7 +63,7 @@
               </select>
             </div>
             <div class="col-sm-2">
-              <select class="form-control" name="day" id="dobDay">
+              <select class="form-control" name="day" id="dobDay" ng-model="user.dobDay">
                 <option value="" disabled selected>Day</option>
                 <option value="01">01</option>
                 <option value="02">02</option>
@@ -99,7 +99,7 @@
               </select>
             </div>
             <div class="col-sm-4">
-              <select class="form-control" name="year" id="year">
+              <select class="form-control" name="year" id="year" ng-model="user.dobYear">
                 <option value="" disabled selected>Year</option>
                 <script>
                   var myDate = new Date();
@@ -114,13 +114,13 @@
 
           <div class="row">
             <div class="col-sm-4">
-              <input type="text" class="form-control" id="address" placeholder="Address">
+              <input type="text" class="form-control" name="address" placeholder="Address" ng-model="user.address">
             </div>
             <div class="col-sm-4">
-              <input type="text" class="form-control" id="city" placeholder="City">
+              <input type="text" class="form-control" name="city" placeholder="City" ng-model="user.city">
             </div>
             <div class="col-sm-4">
-              <select class="form-control" name="state" id="state">
+              <select class="form-control" name="state" id="state" ng-model="user.state">
                 <option value="" disabled selected>State</option>
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
@@ -179,12 +179,12 @@
 
           <div class="row">
             <div class="col-sm-12">
-              <input type="email" class="form-control" id="emailAddress" placeholder="Email Address">
+              <input type="email" class="form-control" name="email" placeholder="Email Address" ng-model="user.email">
             </div>
           </div>
           <div class="row">
             <div class="col-sm-6">
-              <input type="password" class="form-control" id="pWord" placeholder="Password">
+              <input type="password" class="form-control" name="password" placeholder="Password" ng-model="user.password">
             </div>
             <div class="col-sm-6">
               <input type="password" class="form-control" id="pWordConfirm" placeholder="Re-type Password">
