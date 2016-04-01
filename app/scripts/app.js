@@ -2,16 +2,21 @@
 
 /**
  * @ngdoc overview
- * @name testProjectsApp
+ * @name clientApp
  * @description
- * # testProjectsApp
+ * # clientApp
  *
  * Main module of the application.
  */
 angular
-  .module('testProjectsApp', [
+  .module('clientApp', [
+    'ngAnimate',
+    'ngCookies',
+    'ngMessages',
     'ngResource',
-    'ngRoute'
+    'ngRoute',
+    'ngSanitize',
+    'ngTouch'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -25,50 +30,40 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/register', {
+        templateUrl: 'views/register.html',
+        controller: 'RegisterCtrl'
+      })
+      .when('/dashboard', {
+        templateUrl: 'views/dashboard.html',
+        controller: 'DashboardCtrl'
+      })
       .when('/contactus', {
         templateUrl: 'views/contactus.html',
-        controller: 'ContactUsCtrl',
-        controllerAs: 'contactus'
+        controller: 'ContactUsCtrl'
       })
       .when('/faqs', {
         templateUrl: 'views/faqs.html',
         controller: 'FaqsCtrl',
         controllerAs: 'faqs'
       })
-      .when('/registration', {
-        templateUrl: 'views/registration.html',
-        controller: 'RegistrationCtrl',
-        controllerAs: 'registration'
+      .when('/player2', {
+        templateUrl: 'views/player2.html',
+        controller: 'Player2Ctrl',
+        controllerAs: 'player2'
       })
       .when('/playerprofile', {
         templateUrl: 'views/playerprofile.html',
         controller: 'PlayerProfileCtrl',
         controllerAs: 'playerprofile'
       })
-      .when('/player2', {
-        templateUrl: 'views/player2.html',
-        controller: 'Player2Ctrl',
-        controllerAs: 'player2'
+      .when('/login', {
+        templateUrl: 'views/login.html',
+        controller: 'LoginCtrl'
       })
-      .when('/playermanage', {
-        templateUrl: 'views/playermanage.html',
-        controller: 'PlayerManageCtrl',
-        controllerAs: 'playermanage'
-      })
-      .when('/optpool', {
-        templateUrl: 'views/optpool.html',
-        controller: 'OptPoolCtrl',
-        controllerAs: 'optpool'
-      })
-      .when('/managepool', {
-        templateUrl: 'views/managepool.html',
-        controller: 'ManagePoolCtrl',
-        controllerAs: 'managepool'
-      })
-      .when('/inputresults', {
-        templateUrl: 'views/inputresults.html',
-        controller: 'InputResultsCtrl',
-        controllerAs: 'inputresults'
+      .when('/mainLogin', {
+        templateUrl: 'views/mainLogin.html',
+        controller: 'MainLoginCtrl'
       })
       .otherwise({
         redirectTo: '/'
