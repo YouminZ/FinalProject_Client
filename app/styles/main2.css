@@ -155,9 +155,28 @@ a:visited{
 
 .pBackground a:visited{
   color: purple;
-} /*There is come conflict with global font colors*/
+}
 
 /*End Player Profile Page*/
+
+/*Search Player Page*/
+.playerGrid {
+  margin: auto;
+  padding: 5px;
+}
+
+.floated_img {
+  float: left;
+}
+
+
+.pBackground2 {
+  background: #5F5F5F;
+  margin: 0 auto;
+  color: gainsboro;
+}
+
+/*End Search Player*/
 
 /*Contact Us Page*/
 .contact{
