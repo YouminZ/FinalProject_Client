@@ -1,50 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9b006a8-66c6-49fe-b3ab-37e70822ae1f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Client_node_modules.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js.gzip" />
+    <list default="true" id="cf89a4ef-cda1-4177-b844-e4f8c2dad064" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Test projects.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/compass_library.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/sizzle/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/sizzle/dist/sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/sizzle/dist/sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/sizzle/dist/sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/acorn.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/bin-version-check.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/bower.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/cake.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/cdl.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/cleancss.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/coffee.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/csso.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/decompress-zip.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/esparse.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/esvalidate.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/executable.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/extract-zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/extract-zip.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/find-versions.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/gifsicle.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/gzip-size.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/handlebars.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/har-validator.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/has-ansi.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/html-minifier.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/jpegtran.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/js-yaml.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/jscs.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/jshint.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/karma.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/latest-version.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/lpad-align.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/mime.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/ncp.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/ng-annotate.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/nopt.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/opn.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/optipng.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/os-name.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/osx-release.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/phantomjs.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/pretty-bytes.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/rc.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/seek-bunzip.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/seek-table.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/semver.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/shjs.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-conv.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-sign.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-verify.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/strip-ansi.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/strip-dirs.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/strip-indent.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/strip-json-comments.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/supports-color.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/svgo.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/tiny-lr-fork.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/uglifyjs.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/user-home.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/uuid.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/which.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/wiredep.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-db/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-db/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-db/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-db/db.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-db/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-db/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-types/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-types/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-types/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-types/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-types/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/caniuse-db/features-json/css-scrollbar.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/caniuse-db/features-json/css-text-justify.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cdnjs-cdn-data/node_modules/.bin/semver.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/clap/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/configstore/node_modules/.bin/esparse.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/configstore/node_modules/.bin/esvalidate.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/configstore/node_modules/.bin/js-yaml.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/decompress-zip/node_modules/.bin/nopt.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/extract-zip/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/extract-zip/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/extract-zip/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/extract-zip/cli.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/extract-zip/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/extract-zip/node_modules/debug/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/extract-zip/node_modules/debug/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/extract-zip/node_modules/debug/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/extract-zip/node_modules/debug/lib/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/extract-zip/node_modules/debug/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/extract-zip/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/extract-zip/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gifsicle/vendor/gifsicle.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/google-cdn/node_modules/.bin/bower.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/google-cdn/node_modules/.bin/mkdirp.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/google-cdn/node_modules/.bin/nopt.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/google-cdn/node_modules/.bin/semver.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-cssmin/node_modules/.bin/cleancss.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-htmlmin/node_modules/.bin/cleancss.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-htmlmin/node_modules/.bin/html-minifier.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-htmlmin/node_modules/commander/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/grunt-svgmin/node_modules/.bin/esparse.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/grunt-svgmin/node_modules/.bin/esvalidate.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/grunt-svgmin/node_modules/.bin/js-yaml.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/grunt-svgmin/node_modules/.bin/svgo.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gulp-util/node_modules/.bin/dateformat.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/.bin/uglifyjs.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jpegtran-bin/vendor/jpegtran.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jpegtran-bin/vendor/libjpeg-62.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jscs/node_modules/.bin/esparse.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jscs/node_modules/.bin/esvalidate.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jscs/node_modules/.bin/has-ansi.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jscs/node_modules/.bin/strip-ansi.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jscs/node_modules/.bin/strip-json-comments.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jscs/node_modules/.bin/supports-color.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jscs/node_modules/commander/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jshint/node_modules/.bin/strip-json-comments.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/karma-jasmine/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/karma-jasmine/gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/noptify/node_modules/.bin/nopt.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/npmconf/node_modules/.bin/nopt.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/optipng-bin/vendor/optipng.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/isarray/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/isarray/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/isarray/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/isarray/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/isarray/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/isarray/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/isarray/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/isarray/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/readline2/node_modules/.bin/strip-ansi.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/semver-diff/node_modules/.bin/semver.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/semver-truncate/node_modules/.bin/semver.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/string-length/node_modules/.bin/strip-ansi.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/svgo/node_modules/.bin/esparse.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/svgo/node_modules/.bin/esvalidate.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/svgo/node_modules/.bin/js-yaml.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/win-release/node_modules/.bin/semver.cmd" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/coa/README.ru.md" afterPath="$PROJECT_DIR$/node_modules/coa/README.ru.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-contrib-jshint/README.md" afterPath="$PROJECT_DIR$/node_modules/grunt-contrib-jshint/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/svgo/README.ru.md" afterPath="$PROJECT_DIR$/node_modules/svgo/README.ru.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="$PROJECT_DIR$/.bowerrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="$PROJECT_DIR$/.editorconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jscsrc" afterPath="$PROJECT_DIR$/.jscsrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jshintrc" afterPath="$PROJECT_DIR$/.jshintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.yo-rc.json" afterPath="$PROJECT_DIR$/.yo-rc.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client.iml" afterPath="$PROJECT_DIR$/Client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/404.html" afterPath="$PROJECT_DIR$/app/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/robots.txt" afterPath="$PROJECT_DIR$/app/robots.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/about.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/about.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/contactus.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/contactus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/faqs.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/faqs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/player2.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/player2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/playerprofile.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/playerprofile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/Login.css" afterPath="$PROJECT_DIR$/app/styles/Login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main2.css" afterPath="$PROJECT_DIR$/app/styles/main2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/about.html" afterPath="$PROJECT_DIR$/app/views/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contactus.html" afterPath="$PROJECT_DIR$/app/views/contactus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/faqs.html" afterPath="$PROJECT_DIR$/app/views/faqs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/player2.html" afterPath="$PROJECT_DIR$/app/views/player2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/playerprofile.html" afterPath="$PROJECT_DIR$/app/views/playerprofile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FinalProject_Client.iml" afterPath="$PROJECT_DIR$/FinalProject_Client.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-mocks/.bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-mocks/.bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-mocks/README.md" afterPath="$PROJECT_DIR$/bower_components/angular-mocks/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-mocks/angular-mocks.js" afterPath="$PROJECT_DIR$/bower_components/angular-mocks/angular-mocks.js" />
@@ -199,7 +321,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/bower.json" afterPath="$PROJECT_DIR$/bower_components/jquery/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/.jshintrc" afterPath="$PROJECT_DIR$/bower_components/jquery/src/.jshintrc" />
@@ -381,7 +502,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/accepts/README.md" afterPath="$PROJECT_DIR$/node_modules/accepts/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/accepts/index.js" afterPath="$PROJECT_DIR$/node_modules/accepts/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/accepts/package.json" afterPath="$PROJECT_DIR$/node_modules/accepts/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/package.json" afterPath="$PROJECT_DIR$/node_modules/acorn/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/after/.npmignore" afterPath="$PROJECT_DIR$/node_modules/after/.npmignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/after/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/after/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/after/LICENCE" afterPath="$PROJECT_DIR$/node_modules/after/LICENCE" />
@@ -5003,7 +5123,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/caniuse-db/.npmignore" afterPath="$PROJECT_DIR$/node_modules/caniuse-db/.npmignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/caniuse-db/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/node_modules/caniuse-db/CONTRIBUTING.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/caniuse-db/README.md" afterPath="$PROJECT_DIR$/node_modules/caniuse-db/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/caniuse-db/data.json" afterPath="$PROJECT_DIR$/node_modules/caniuse-db/data.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/caniuse-db/features-json/aac.json" afterPath="$PROJECT_DIR$/node_modules/caniuse-db/features-json/aac.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/caniuse-db/features-json/ac3-ec3.json" afterPath="$PROJECT_DIR$/node_modules/caniuse-db/features-json/ac3-ec3.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/caniuse-db/features-json/addeventlistener.json" afterPath="$PROJECT_DIR$/node_modules/caniuse-db/features-json/addeventlistener.json" />
@@ -5342,8 +5461,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/caniuse-db/features-json/xhtml.json" afterPath="$PROJECT_DIR$/node_modules/caniuse-db/features-json/xhtml.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/caniuse-db/features-json/xhtmlsmil.json" afterPath="$PROJECT_DIR$/node_modules/caniuse-db/features-json/xhtmlsmil.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/caniuse-db/features-json/xml-serializer.json" afterPath="$PROJECT_DIR$/node_modules/caniuse-db/features-json/xml-serializer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/caniuse-db/fulldata-json/data-1.0.json" afterPath="$PROJECT_DIR$/node_modules/caniuse-db/fulldata-json/data-1.0.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/caniuse-db/fulldata-json/data-2.0.json" afterPath="$PROJECT_DIR$/node_modules/caniuse-db/fulldata-json/data-2.0.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/caniuse-db/package.json" afterPath="$PROJECT_DIR$/node_modules/caniuse-db/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/capture-stack-trace/index.js" afterPath="$PROJECT_DIR$/node_modules/capture-stack-trace/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/capture-stack-trace/package.json" afterPath="$PROJECT_DIR$/node_modules/capture-stack-trace/package.json" />
@@ -5983,13 +6100,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-js/build/index.js" afterPath="$PROJECT_DIR$/node_modules/core-js/build/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-js/client/core.js" afterPath="$PROJECT_DIR$/node_modules/core-js/client/core.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-js/client/core.min.js" afterPath="$PROJECT_DIR$/node_modules/core-js/client/core.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-js/client/core.min.js.map" afterPath="$PROJECT_DIR$/node_modules/core-js/client/core.min.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-js/client/library.js" afterPath="$PROJECT_DIR$/node_modules/core-js/client/library.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-js/client/library.min.js" afterPath="$PROJECT_DIR$/node_modules/core-js/client/library.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-js/client/library.min.js.map" afterPath="$PROJECT_DIR$/node_modules/core-js/client/library.min.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-js/client/shim.js" afterPath="$PROJECT_DIR$/node_modules/core-js/client/shim.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-js/client/shim.min.js" afterPath="$PROJECT_DIR$/node_modules/core-js/client/shim.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-js/client/shim.min.js.map" afterPath="$PROJECT_DIR$/node_modules/core-js/client/shim.min.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-js/core/_.js" afterPath="$PROJECT_DIR$/node_modules/core-js/core/_.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-js/core/delay.js" afterPath="$PROJECT_DIR$/node_modules/core-js/core/delay.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-js/core/dict.js" afterPath="$PROJECT_DIR$/node_modules/core-js/core/dict.js" />
@@ -8833,16 +8947,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/expand-braces/LICENSE" afterPath="$PROJECT_DIR$/node_modules/expand-braces/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/expand-braces/index.js" afterPath="$PROJECT_DIR$/node_modules/expand-braces/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/braces/LICENSE-MIT" afterPath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/braces/LICENSE-MIT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/braces/package.json" afterPath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/braces/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/expand-range/LICENSE-MIT" afterPath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/expand-range/LICENSE-MIT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/expand-range/package.json" afterPath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/expand-range/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/is-number/LICENSE-MIT" afterPath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/is-number/LICENSE-MIT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/is-number/package.json" afterPath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/is-number/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/repeat-string/.gitattributes" afterPath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/repeat-string/.gitattributes" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/repeat-string/.jshintrc" afterPath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/repeat-string/.jshintrc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/repeat-string/.npmignore" afterPath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/repeat-string/.npmignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/repeat-string/LICENSE-MIT" afterPath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/repeat-string/LICENSE-MIT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/repeat-string/package.json" afterPath="$PROJECT_DIR$/node_modules/expand-braces/node_modules/repeat-string/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/expand-braces/package.json" afterPath="$PROJECT_DIR$/node_modules/expand-braces/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/expand-braces/readme.md" afterPath="$PROJECT_DIR$/node_modules/expand-braces/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/expand-brackets/LICENSE" afterPath="$PROJECT_DIR$/node_modules/expand-brackets/LICENSE" />
@@ -10258,9 +10368,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-legacy-util/test/fixtures/spawn-multibyte.js" afterPath="$PROJECT_DIR$/node_modules/grunt-legacy-util/test/fixtures/spawn-multibyte.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-legacy-util/test/fixtures/spawn.js" afterPath="$PROJECT_DIR$/node_modules/grunt-legacy-util/test/fixtures/spawn.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-legacy-util/test/index.js" afterPath="$PROJECT_DIR$/node_modules/grunt-legacy-util/test/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jscs/all/timestamp" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jscs/all/timestamp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jscs/test/timestamp" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jscs/test/timestamp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/all/timestamp" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/all/timestamp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/test/timestamp" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/test/timestamp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.jshintrc" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.jshintrc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.npmignore" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.npmignore" />
@@ -11532,7 +11640,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-minifier/dist/htmlminifier.min.js" afterPath="$PROJECT_DIR$/node_modules/html-minifier/dist/htmlminifier.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-minifier/package.json" afterPath="$PROJECT_DIR$/node_modules/html-minifier/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-minifier/sample-cli-config-file.conf" afterPath="$PROJECT_DIR$/node_modules/html-minifier/sample-cli-config-file.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/htmlparser2/package.json" afterPath="$PROJECT_DIR$/node_modules/htmlparser2/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/http-errors/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/http-errors/HISTORY.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/http-errors/LICENSE" afterPath="$PROJECT_DIR$/node_modules/http-errors/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/http-errors/README.md" afterPath="$PROJECT_DIR$/node_modules/http-errors/README.md" />
@@ -15870,7 +15977,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/prepend-http/package.json" afterPath="$PROJECT_DIR$/node_modules/prepend-http/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/prepend-http/readme.md" afterPath="$PROJECT_DIR$/node_modules/prepend-http/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/preserve/LICENSE" afterPath="$PROJECT_DIR$/node_modules/preserve/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/preserve/package.json" afterPath="$PROJECT_DIR$/node_modules/preserve/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pretty-bytes/cli.js" afterPath="$PROJECT_DIR$/node_modules/pretty-bytes/cli.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pretty-bytes/license" afterPath="$PROJECT_DIR$/node_modules/pretty-bytes/license" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pretty-bytes/package.json" afterPath="$PROJECT_DIR$/node_modules/pretty-bytes/package.json" />
@@ -18990,17 +19096,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yeast/README.md" afterPath="$PROJECT_DIR$/node_modules/yeast/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yeast/index.js" afterPath="$PROJECT_DIR$/node_modules/yeast/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yeast/package.json" afterPath="$PROJECT_DIR$/node_modules/yeast/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/.jshintrc" afterPath="$PROJECT_DIR$/test/.jshintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/karma.conf.js" afterPath="$PROJECT_DIR$/test/karma.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/controllers/about.js" afterPath="$PROJECT_DIR$/test/spec/controllers/about.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/controllers/contactus.js" afterPath="$PROJECT_DIR$/test/spec/controllers/contactus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/controllers/main.js" afterPath="$PROJECT_DIR$/test/spec/controllers/main.js" />
     </list>
-    <ignored path="Client.iws" />
+    <ignored path="FinalProject_Client.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19014,104 +19113,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="Client" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-49.692307">
-              <caret line="76" column="60" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="playermanage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/playermanage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/registration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6200608">
-              <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/registration.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contactus.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/contactus.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contactus.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/contactus.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="player2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/player2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-              <folding>
-                <marker date="1459440683506" expanded="true" signature="15:47" placeholder="/** @ngdoc overview ...*/" />
-                <marker date="1459440683506" expanded="true" signature="1619:1628" placeholder="{&quot;templateUrl&quot;: 'views/inputresults.html'...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <favorites_list name="FinalProject_Client" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19119,35 +19121,6 @@
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/app/views/about.html" />
-        <option value="$PROJECT_DIR$/app/views/faqs.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/faqs.js" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/player2.js" />
-        <option value="$PROJECT_DIR$/app/views/mainLogin.html" />
-        <option value="$PROJECT_DIR$/app/scripts/app.js" />
-        <option value="$PROJECT_DIR$/app/views/main.html" />
-        <option value="$PROJECT_DIR$/app/views/contactus.html" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/contactus.js" />
-        <option value="$PROJECT_DIR$/app/views/playerprofile.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/playerprofile.js" />
-        <option value="$PROJECT_DIR$/app/views/player2.html" />
-        <option value="$PROJECT_DIR$/app/views/register.html" />
-        <option value="$PROJECT_DIR$/app/views/login.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/login.js" />
-        <option value="$PROJECT_DIR$/app/styles/Login.css" />
-        <option value="$PROJECT_DIR$/app/styles/main2.css" />
-        <option value="$PROJECT_DIR$/app/views/header.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/header.js" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/register.js" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true">
@@ -19195,10 +19168,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1051" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -19225,216 +19198,46 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Client" />
+              <option name="myItemId" value="FinalProject_Client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Client" />
+              <option name="myItemId" value="FinalProject_Client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FinalProject_Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalProject_Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalProject_Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalProject_Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalProject_Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalProject_Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalProject_Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.sass.extensions.compass.CompassConfigurableProvider$1" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
-    <property name="js-jscs-package" value="C:\Users\Steven\Desktop\cloudApp-v4\client\node_modules\jscs" />
-    <property name="editor.config.accepted" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FinalProject" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -19460,159 +19263,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -19634,121 +19284,12 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="client" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -19779,92 +19320,17 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
       <envs />
       <force value="false" />
       <verbose value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
   </component>
   <component name="SbtLocalSettings">
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/../../337_project/FinalProject" value="1458334888877" />
+        <entry key="$PROJECT_DIR$/../FinalProject" value="1459286471037" />
       </map>
     </option>
     <option name="externalProjectsViewState">
@@ -19874,79 +19340,47 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f4a91dc4-68c2-4927-99ae-c64ae832c489" name="Default" comment="" />
-      <created>1459379468105</created>
+      <changelist id="cf89a4ef-cda1-4177-b844-e4f8c2dad064" name="Default" comment="" />
+      <created>1459646029624</created>
       <option name="number" value="Default" />
-      <updated>1459379468105</updated>
-      <workItem from="1459379471136" duration="663000" />
-      <workItem from="1459380214995" duration="75000" />
-      <workItem from="1459383331483" duration="254000" />
-      <workItem from="1459385007222" duration="311000" />
-      <workItem from="1459386808117" duration="2057000" />
-      <workItem from="1459395977118" duration="7928000" />
-      <workItem from="1459435653816" duration="5416000" />
-      <workItem from="1459476241444" duration="6766000" />
+      <updated>1459646029624</updated>
+      <workItem from="1459646031229" duration="995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23847000" />
+    <option name="totallyTimeSpent" value="995000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1051" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20971303" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2635585" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27214515" sideWeight="0.6480447" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Grunt " active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27214515" sideWeight="0.3519553" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.4940171" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.50598294" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282588" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20860927" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2635585" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26574174" sideWeight="0.66777045" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26574174" sideWeight="0.33222958" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282588" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -19954,382 +19388,5 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/robots.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/bubbleAnimation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="29" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/Login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/inputresults.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="466" column="16" selection-start-line="466" selection-start-column="8" selection-end-line="466" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/playerprofile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/bubbles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/bubbles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32218507">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/faqs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.846153">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/playermanage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/player2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-49.692307">
-          <caret line="76" column="60" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/icon_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/yeoman.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/profile_1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-          <folding>
-            <marker date="1459440683506" expanded="true" signature="15:47" placeholder="/** @ngdoc overview ...*/" />
-            <marker date="1459440683506" expanded="true" signature="1619:1628" placeholder="{&quot;templateUrl&quot;: 'views/inputresults.html'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/registration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/contactus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contactus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6200608">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
