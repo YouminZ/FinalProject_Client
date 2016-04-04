@@ -65,9 +65,13 @@ angular
         templateUrl: 'views/mainLogin.html',
         controller: 'MainLoginCtrl'
       })
-      .when('/search', {
+      .when('/searchprofiles', {
         templateUrl: 'views/playersearch.html',
         controller: 'PlayersearchCtrl'
+      })
+      .when('/searchtournaments', {
+        templateUrl: 'views/searchtournaments.html',
+        controller: 'SearchtournamentsCtrl'
       })
       .otherwise({
         redirectTo: '/'

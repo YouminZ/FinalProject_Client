@@ -165,14 +165,19 @@ a:visited{
   padding: 5px;
 }
 
+.sfontcolor{
+  color: #65EA6D;
+}
 .floated_img {
   float: left;
 }
 
+.sfontcolor2{
+  color: grey;
+}
 
 .pBackground2 {
   background: #5F5F5F;
-  margin: 0 auto;
   color: gainsboro;
 }
 

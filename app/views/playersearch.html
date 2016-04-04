@@ -17,16 +17,20 @@
         </div>
         <div class="row">
           <div class="col-sm-6">
-            <input type="text" class="form-control" name="game" placeholder="Game" ng-model="user.firstName">
+            <input type="text" class="form-control" name="game" placeholder="Game" ng-model="user.game">
           </div>
           <div class="col-sm-6">
-            <input type="text" class="form-control" name="platform" placeholder="Platform" ng-model="user.lastName">
+            <input type="text" class="form-control" name="platform" placeholder="Platform" ng-model="user.platform">
           </div>
+        </div>
+
+        <div class="col-sm-12">
+          <button type="submit" class="btn btn-shutterOut col-sm-12" name="submit" id="button-submit">Search</button>
         </div>
       </div>
 
-      <section class="pBackground2">
-        <div class="col-lg-12"><h3>Top Profiles</h3></div>
+      <section>
+        <div class="col-lg-12 sfontcolor"><h3>Top Profiles</h3></div>
         <div class="floated_img">
         <img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">
         <p>Bjergsen-League of Legends</p>
@@ -62,6 +66,15 @@
         <div class="floated_img">
           <img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">
           <p>Bjergsen-League of Legends</p>
+        </div>
+
+        <div class="row playerGrid container-fluid">
+          <div class="col-sm-6 col-md-6 col-lg-6">
+            <button type="submit" class="btn btn-shutterOut col-sm-11" name="submit" id="button-submit">More Profiles</button>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-6">
+            <button class="btn btn-shutterOut col-sm-11"><a ng-href="#/searchtournaments">Search Tournaments</a></button>
+          </div>
         </div>
 
       </section>
