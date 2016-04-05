@@ -9,6 +9,7 @@
  */
 angular.module('clientApp')
   .controller('RegisterCtrl', function ($scope, $http, $location) {
+    $(document).scrollTop(0);
 
       $scope.register = function(){
         console.log($scope.user);
