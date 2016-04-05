@@ -9,9 +9,5 @@
  */
 angular.module('clientApp')
   .controller('ManagePoolCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    $(document).scrollTop(0);
   });

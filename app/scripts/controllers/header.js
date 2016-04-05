@@ -22,7 +22,7 @@ angular.module('clientApp')
       $http.defaults.headers.common['X-AUTH-TOKEN'] = '';
       $cookieStore.remove('user');
       $scope.user = null;
-      $location.path("")
+      $location.path("/")
     }
 
 
