@@ -7,8 +7,8 @@
  * # PlyrmanageCtrl
  * Controller of the testProjectsApp
  */
-angular.module('testProjectsApp')
-  .controller('PlyrmanageCtrl', function () {
+angular.module('clientApp')
+  .controller('PlayerManageCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

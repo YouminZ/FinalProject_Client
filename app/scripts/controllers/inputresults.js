@@ -7,8 +7,8 @@
  * # InputresultsCtrl
  * Controller of the testProjectsApp
  */
-angular.module('testProjectsApp')
-  .controller('InputresultsCtrl', function () {
+angular.module('clientApp')
+  .controller('InputResultsCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
