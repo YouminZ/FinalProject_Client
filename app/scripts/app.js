@@ -34,10 +34,6 @@ angular
         templateUrl: 'views/register.html',
         controller: 'RegisterCtrl'
       })
-      .when('/dashboard', {
-        templateUrl: 'views/dashboard.html',
-        controller: 'DashboardCtrl'
-      })
       .when('/contactus', {
         templateUrl: 'views/contactus.html',
         controller: 'ContactUsCtrl'
@@ -72,6 +68,22 @@ angular
       .when('/searchtournaments', {
         templateUrl: 'views/searchtournaments.html',
         controller: 'SearchtournamentsCtrl'
+      })
+      .when('/playermanage', {
+        templateUrl: 'views/playermanage.html',
+        controller: 'PlayerManageCtrl'
+      })
+      .when('/optpool', {
+        templateUrl: 'views/optpool.html',
+        controller: 'OptPoolCtrl'
+      })
+      .when('/managepool', {
+        templateUrl: 'views/managepool.html',
+        controller: 'ManagePoolCtrl'
+      })
+      .when('/inputresults', {
+        templateUrl: 'views/inputresults.html',
+        controller: 'InputResultsCtrl'
       })
       .otherwise({
         redirectTo: '/'

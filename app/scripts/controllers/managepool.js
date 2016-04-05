@@ -7,8 +7,8 @@
  * # ManagepoolCtrl
  * Controller of the testProjectsApp
  */
-angular.module('testProjectsApp')
-  .controller('ManagepoolCtrl', function () {
+angular.module('clientApp')
+  .controller('ManagePoolCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
