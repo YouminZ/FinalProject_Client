@@ -30,10 +30,10 @@
     <div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
       <ul class="nav navbar-nav navbar-left">
         <li><a ng-href="#/about">About Us</a></li>
-        <li><a ng-href="#/playerprofile">My Profile</a></li>
+
         <li><a ng-href="#/contactus">Contact</a></li>
         <li><a ng-href="#/faqs">FAQs</a></li>
-        <li><a ng-href="#/searchprofiles">Search Profiles</a></li>
+        <li><a ng-href="#/playersearch">Search Profiles</a></li>
         <li><a ng-href="#/searchtournaments">Search Tournaments</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -46,7 +46,8 @@
           </ul>
         </li>
         <li><a ng-href="#/player2">test</a></li>
-        <li><a ng-href="#/register">Register</a></li>
+        <li ng-show="user"><a ng-href="#/playerprofile">My Profile</a></li>
+        <li ng-show="!user"><a ng-href="#/register">Register</a></li>
         <!--<li ng-show="!user"><a ng-href="#/login" data-toggle="modal" data-target="#login-modal">Login</a></li>-->
         <li ng-show="!user"><a data-toggle="modal" data-target="#login-modal">Login</a></li>
         <li ng-show="user"><a href ng-click="logout()">Logout</a></li>
@@ -60,7 +61,7 @@
       <div class="loginmodal-container">
         <h1>Login to Your Account</h1><br>
         <p class="warningText" ng-show="err == true" style="padding: 1em;">
-          Your userid or password is incorrect. Correct the information and try again.
+          Your <b>GamerTag</b> or <b>Password</b> is incorrect!
         </p>
         <form name="loginForm" ng-init="authInfo = {}" ng-submit="login()">
           <div class="right-inner-addon">

@@ -61,11 +61,11 @@ angular
         templateUrl: 'views/login.html',
         controller: 'LoginCtrl'
       })
-      .when('/mainLogin', {
-        templateUrl: 'views/mainLogin.html',
-        controller: 'MainLoginCtrl'
+      .when('/registersuccess', {
+        templateUrl: 'views/registersuccess.html',
+        controller: 'RegisterSuccessCtrl'
       })
-      .when('/searchprofiles', {
+      .when('/playersearch', {
         templateUrl: 'views/playersearch.html',
         controller: 'PlayersearchCtrl'
       })

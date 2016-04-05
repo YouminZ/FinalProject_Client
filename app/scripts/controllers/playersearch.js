@@ -8,10 +8,8 @@
  * Controller of the clientApp
  */
 angular.module('clientApp')
-  .controller('PlayersearchCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('PlayersearchCtrl', function ($scope, $http, $location) {
+    $scope.gotoSearchTournament = function(){
+      $location.path("/searchtournaments")
+    }
   });

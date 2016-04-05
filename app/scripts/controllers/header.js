@@ -42,7 +42,12 @@ angular.module('clientApp')
     var loginFailure = function(data, status){
       $scope.err = true;
     }
+    //closes modal when click on screen
     $('#login-modal').modal('hide');
     $('body').removeClass('modal-open');
     $('.modal-backdrop').remove();
+    //clears text fields when modal is closed
+    $('#login-modal').on('hidden.bs.modal', function () {
+      $(this).find('form').trigger('reset');
+    })
   });
