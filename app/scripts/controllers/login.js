@@ -10,7 +10,9 @@
 angular.module('clientApp')
   .controller('LoginCtrl', function ($scope, $http, $location, $cookieStore) {
     $('#login-modal').modal('hide');
-
+    $('#login-modal').on('hidden.bs.modal', function () {
+      $(this).find('form').trigger('reset');
+    })
     $scope.err = false;
 
     $scope.login = function () {

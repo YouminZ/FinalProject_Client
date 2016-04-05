@@ -238,5 +238,6 @@ a:visited{
 }
 
 .warningText{
+  font-size: 16px;
   color: orangered;
 }

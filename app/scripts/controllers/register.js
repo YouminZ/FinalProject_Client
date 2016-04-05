@@ -22,7 +22,13 @@ angular.module('clientApp')
             }
           })
           .success(function(data, status){
-            $location.path("/main");
+            $location.path("/registersuccess");
           })
       }
+
+    $scope.cancelReg = function(){
+      $location.path("/main");
+    }
+
+
   });
