@@ -5,9 +5,10 @@
   left: 0;
   width:100%;
   height:100%;
-  z-index: -1;
+  z-index: 0;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
+  pointer-events: none;
 }
 
 .bubbles li {
@@ -20,6 +21,8 @@
   animation: square 20s infinite;
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
+  pointer-events: none;
+
 }
 
 .bubbles li:nth-child(1) {
