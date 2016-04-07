@@ -21,15 +21,18 @@
           </div>
           <div class="col-sm-6">
             <div class="form-group" ng-model="err.last_name" ng-class="{true: 'has-error'}[err.last_name  && !registerForm.last_name.$dirty]">
-            <input type="text" class="form-control" name="last_name" placeholder="Last Name" ng-model="user.last_name">
+              <input type="text" class="form-control" name="last_name" placeholder="Last Name" ng-model="user.last_name">
               <span class="help-block" ng-show="[err.last_name]">{{err.last_name}}</span>
-              </div>
+            </div>
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm-5">
-            <input type="text" class="form-control" name="gamerTag" placeholder="Gamer Tag" ng-model="user.gamerTag">
+            <div class="form-group" ng-model="err.gamerTag" ng-class="{true:'has-error'} [err.gamerTag && !registerForm.gamerTag.$dirty]">
+              <input type="text" class="form-control" name="gamerTag" placeholder="Gamer Tag" ng-model="user.gamerTag">
+              <span class="help-block" ng-show="[err.gamerTag]">{{err.gamerTag}}</span>
+            </div>
           </div>
           <div class="radButtons">
             <div class="col-sm-7">
@@ -54,59 +57,66 @@
             <label>Date of Birth</label>
           </div>
           <div class="col-sm-4">
-            <select class="form-control" name="month" id="dobMonth" ng-model="user.dobMonth">
-              <option value="" disabled selected>Month</option>
-              <option value="01">January</option>
-              <option value="02">February</option>
-              <option value="03">March</option>
-              <option value="04">April</option>
-              <option value="05">May</option>
-              <option value="06">June</option>
-              <option value="07">July</option>
-              <option value="08">August</option>
-              <option value="09">September</option>
-              <option value="10">October</option>
-              <option value="11">November</option>
-              <option value="12">December</option>
-            </select>
+            <div class="form-group" ng-model="err.dobMonth" ng-class="{true:'has-error'} [err.dobMonth && !registerForm.dobMonth.$dirty]">
+              <select class="form-control" name="month" id="dobMonth" ng-model="user.dobMonth">
+                <option value="" disabled selected>Month</option>
+                <option value="01">January</option>
+                <option value="02">February</option>
+                <option value="03">March</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+              </select>
+              <span class="help-block" ng-show="[err.dobMonth]">{{err.dobMonth}}</span>
+            </div>
           </div>
           <div class="col-sm-2">
-            <select class="form-control" name="day" id="dobDay" ng-model="user.dobDay">
-              <option value="" disabled selected>Day</option>
-              <option value="01">01</option>
-              <option value="02">02</option>
-              <option value="03">03</option>
-              <option value="04">04</option>
-              <option value="05">05</option>
-              <option value="06">06</option>
-              <option value="07">07</option>
-              <option value="08">08</option>
-              <option value="09">09</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
-              <option value="15">15</option>
-              <option value="16">16</option>
-              <option value="17">17</option>
-              <option value="18">18</option>
-              <option value="19">19</option>
-              <option value="20">20</option>
-              <option value="21">21</option>
-              <option value="22">22</option>
-              <option value="23">23</option>
-              <option value="24">24</option>
-              <option value="25">25</option>
-              <option value="26">26</option>
-              <option value="27">27</option>
-              <option value="28">28</option>
-              <option value="29">29</option>
-              <option value="30">30</option>
-              <option value="31">31</option>
-            </select>
+            <div class="form-group" ng-model="err.dobDay" ng-class="{true:'has-error'} [err.dobDay && !registerForm.dobDay.$dirty]">
+              <select class="form-control" name="day" id="dobDay" ng-model="user.dobDay">
+                <option value="" disabled selected>Day</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+              </select>
+              <span class="help-block" ng-show="[err.dobDay]">{{err.dobDay}}</span>
+            </div>
           </div>
           <div class="col-sm-4">
+            <div class="form-group" ng-model="err.dobYear" ng-class="{true:'has-error'} [err.dobYear && !registerForm.dobYear.$dirty]">
             <select class="form-control" name="year" id="year" ng-model="user.dobYear">
               <option value="" disabled selected>Year</option>
               <option value="2016">2016</option>
@@ -167,17 +177,26 @@
               <option value="1961">1961</option>
               <option value="1960">1960</option>
             </select>﻿
+            <span class="help-block" ng-show="[err.dobYear]">{{err.dobYear}}</span>
+          </div>
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm-4">
+            <div class="form-group" ng-model="err.address" ng-class="{true:'has-error'} [err.address && !registerForm.address.$dirty]">
             <input type="text" class="form-control" name="address" placeholder="Address" ng-model="user.address">
+            <span class="help-block" ng-show="[err.address]">{{err.address}}</span>
+          </div>
           </div>
           <div class="col-sm-4">
+            <div class="form-group" ng-model="err.city" ng-class="{true:'has-error'} [err.city && !registerForm.city.$dirty]">
             <input type="text" class="form-control" name="city" placeholder="City" ng-model="user.city">
+              <span class="help-block" ng-show="[err.city]">{{err.city}}</span>
+            </div>
           </div>
           <div class="col-sm-4">
+            <div class="form-group" ng-model="err.state" ng-class="{true:'has-error'} [err.state && !registerForm.state.$dirty]">
             <select class="form-control" name="state" id="state" ng-model="user.state">
               <option value="" disabled selected>State</option>
               <option value="AL">Alabama</option>
@@ -232,6 +251,8 @@
               <option value="WI">Wisconsin</option>
               <option value="WY">Wyoming</option>
             </select>
+              <span class="help-block" ng-show="[err.state]">{{err.state}}</span>
+            </div>
           </div>
         </div>
 
