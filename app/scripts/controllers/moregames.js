@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name clientApp.controller:SearchtournamentsCtrl
+ * @name clientApp.controller:MoregamesCtrl
  * @description
- * # SearchtournamentsCtrl
+ * # MoregamesCtrl
  * Controller of the clientApp
  */
 angular.module('clientApp')
-  .controller('SearchtournamentsCtrl', function ($scope, $http, $location) {
+  .controller('MoregamesCtrl', function ($scope, $http, $location) {
     $(document).scrollTop(0);
     $scope.gotoPlayerSearch = function(){
       $location.path('/playersearch')
@@ -16,4 +16,9 @@ angular.module('clientApp')
     $scope.gotoMoreGames = function(){
       $location.path('/moregames')
     }
+    $scope.gotoSearchTournament = function(){
+      $location.path("/searchtournaments")
+    }
   });
+
+

@@ -2,36 +2,11 @@
 <div class="wideBackground">
   <div class="container">
     <!--<div class="col-sm-offset-1 col-sm-10 col-sm-offset-1">-->
-    <h2 class="row header container-fluid col-sm-12 col-md-12 col-lg-12">Tournament Search</h2>
     <body class="col-lg-12">
-    <div class="row col-sm-12 col-md-12 col-lg-12">
-      <input type="text" class="form-control" name="tournamentName" placeholder="Tournament Name" ng-model="user.tournamentName">
 
-      <div class="row">
-        <div class="col-sm-6">
-          <input type="text" class="form-control" name="location" placeholder="Location" ng-model="user.location">
-        </div>
-        <div class="col-sm-6">
-          <input type="text" class="form-control" name="game" placeholder="Game" ng-model="user.game">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <input type="text" class="form-control" name="playform" placeholder="Platform" ng-model="user.platform">
-        </div>
-        <div class="col-sm-6">
-          <input type="text" class="form-control" name="year" placeholder="Year" ng-model="user.year">
-        </div>
-      </div>
-
-      <div class="col-sm-12">
-        <button type="submit" class="btn btn-shutterOut col-sm-12" name="submit" id="button-submit">Search</button>
-      </div>
-
-    </div>
 
     <section>
-      <div class="col-lg-12 sfontcolor"><h3>Choose Your Game</h3></div>
+      <div class="col-lg-12 sfontcolor header"><h3>Choose Your Game</h3></div>
       <div class="floated_img">
         <img src=images/games/leagueoflegends.PNG width="336" height="159" alt="Game Icon">
       </div>
@@ -45,7 +20,7 @@
         <img src=images/games/smashbros.jpg width="336" height="159" alt="Game Icon">
       </div>      <div class="floated_img">
       <img src=images/games/codblackops.PNG width="336" height="159" alt="Game Icon">
-      </div>
+    </div>
       <div class="floated_img">
         <img src=images/games/heroesofthestorm.PNG width="336" height="159" alt="Game Icon">
       </div>
@@ -53,7 +28,7 @@
 
       <div class="row playerGrid container-fluid">
         <div class="col-sm-6 col-md-6 col-lg-6">
-          <button class="btn btn-shutterOut col-sm-11" ng-click="gotoMoreGames()">More Games</button>
+          <button class="btn btn-shutterOut col-sm-11" ng-click="gotoSearchTournament()">Back</button>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-6">
           <button class="btn btn-shutterOut col-sm-11" ng-click="gotoPlayerSearch()">Search Profiles</button>
@@ -65,4 +40,3 @@
     </body>
   </div>
 </div>
-
