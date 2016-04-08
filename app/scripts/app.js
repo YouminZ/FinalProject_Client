@@ -85,6 +85,14 @@ angular
         templateUrl: 'views/inputresults.html',
         controller: 'InputResultsCtrl'
       })
+      .when('/tournamentprofile', {
+        templateUrl: 'views/tournamentprofile.html',
+        controller: 'TournamentprofileCtrl'
+      })
+      .when('/moregames', {
+        templateUrl: 'views/moregames.html',
+        controller: 'MoregamesCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
