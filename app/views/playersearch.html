@@ -1,11 +1,11 @@
 <div ng-include src="'views/header.html'"></div>
-<div class="wideBackground">
+<div class="wideBackground" ng-controller="PlayersearchCtrl">
   <div class="container">
     <!--<div class="col-sm-offset-1 col-sm-10 col-sm-offset-1">-->
     <h2 class="row header container-fluid col-sm-12 col-md-12 col-lg-12">Player Search</h2>
       <body class="col-lg-12">
-      <div class="row col-sm-12 col-md-12 col-lg-12">
-        <input type="text" class="form-control" name="gamerTag" placeholder="Gamer Tag" ng-model="user.gamerTag">
+      <form class="row col-sm-12 col-md-12 col-lg-12" name="searchform" ng-submit="search()">
+        <input type="text" class="form-control" ng-model="search_string" name="gamerTag" placeholder="Gamer Tag" ng-model="user.gamerTag" >
 
         <div class="row">
           <div class="col-sm-6">
@@ -27,57 +27,74 @@
         <div class="col-sm-12">
           <button type="submit" class="btn btn-shutterOut col-sm-12" name="submit" id="button-submit">Search</button>
         </div>
-      </div>
+      </form>
+
+
+
 
       <section>
-        <div class="mainText">
-        <div class="col-lg-12 sfontcolor"><h3>Top Profiles</h3></div>
-        <div class="floated_img">
-        <img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">
-        <p>Bjergsen-League of Legends</p>
-        </div>
-        <div class="floated_img">
-          <img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">
-          <p>Bjergsen-League of Legends</p>
-        </div>
-        <div class="floated_img">
-          <img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">
-          <p>Bjergsen-League of Legends</p>
-        </div>
-        <div class="floated_img">
-          <img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">
-          <p>Bjergsen-League of Legends</p>
-        </div>
-        <div class="floated_img">
-          <img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">
-          <p>Bjergsen-League of Legends</p>
-        </div>
-        <div class="floated_img">
-          <img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">
-          <p>Bjergsen-League of Legends</p>
-        </div>
-        <div class="floated_img">
-          <img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">
-          <p>Bjergsen-League of Legends</p>
-        </div>
-        <div class="floated_img">
-          <img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">
-          <p>Bjergsen-League of Legends</p>
-        </div>
-        <div class="floated_img">
-          <img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">
-          <p>Bjergsen-League of Legends</p>
+
+        <!--TODO: if you know how this works, please make it look good-->
+        <div class="container" ng-show = "players.length > 0" >
+          <div class="row">
+            <div class="col-md-6" ng-repeat="player in players">
+              <div class="well well-sm">
+                <div class="media">
+                  <h4 class="media-heading">{{player.gamerTag}}</h4>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="row playerGrid container-fluid">
-          <div class="col-sm-6 col-md-6 col-lg-6">
-            <button type="submit" class="btn btn-shutterOut col-sm-11" name="submit" id="button-submit">More Profiles</button>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-6">
-            <button class="btn btn-shutterOut col-sm-11" ng-click="gotoSearchTournament()">Search Tournaments</button>
-          </div>
-        </div>
-        </div>
+        <!--<div class="mainText">-->
+        <!--<div class="col-lg-12 sfontcolor"><h3>Top Profiles</h3></div>-->
+        <!--<div class="floated_img">-->
+        <!--<img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">-->
+        <!--<p>Bjergsen-League of Legends</p>-->
+        <!--</div>-->
+        <!--<div class="floated_img">-->
+          <!--<img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">-->
+          <!--<p>Bjergsen-League of Legends</p>-->
+        <!--</div>-->
+        <!--<div class="floated_img">-->
+          <!--<img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">-->
+          <!--<p>Bjergsen-League of Legends</p>-->
+        <!--</div>-->
+        <!--<div class="floated_img">-->
+          <!--<img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">-->
+          <!--<p>Bjergsen-League of Legends</p>-->
+        <!--</div>-->
+        <!--<div class="floated_img">-->
+          <!--<img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">-->
+          <!--<p>Bjergsen-League of Legends</p>-->
+        <!--</div>-->
+        <!--<div class="floated_img">-->
+          <!--<img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">-->
+          <!--<p>Bjergsen-League of Legends</p>-->
+        <!--</div>-->
+        <!--<div class="floated_img">-->
+          <!--<img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">-->
+          <!--<p>Bjergsen-League of Legends</p>-->
+        <!--</div>-->
+        <!--<div class="floated_img">-->
+          <!--<img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">-->
+          <!--<p>Bjergsen-League of Legends</p>-->
+        <!--</div>-->
+        <!--<div class="floated_img">-->
+          <!--<img src=images/profile_1.jpg width="224" height="157" alt="Profile Image">-->
+          <!--<p>Bjergsen-League of Legends</p>-->
+        <!--</div>-->
+
+        <!--<div class="row playerGrid container-fluid">-->
+          <!--<div class="col-sm-6 col-md-6 col-lg-6">-->
+            <!--<button type="submit" class="btn btn-shutterOut col-sm-11" name="submit" id="button-submit_moreProfile">More Profiles</button>-->
+          <!--</div>-->
+          <!--<div class="col-sm-6 col-md-6 col-lg-6">-->
+            <!--<button class="btn btn-shutterOut col-sm-11" ng-click="gotoSearchTournament()">Search Tournaments</button>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
       </section>
 
 
