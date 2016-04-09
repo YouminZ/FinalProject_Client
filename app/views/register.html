@@ -28,26 +28,24 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-5">
+          <div class="col-sm-6">
             <div class="form-group" ng-model="err.gamerTag" ng-class="{true:'has-error'} [err.gamerTag && !registerForm.gamerTag.$dirty]">
               <input type="text" class="form-control" name="gamerTag" placeholder="Gamer Tag" ng-model="user.gamerTag">
               <span class="help-block" ng-show="[err.gamerTag]">{{err.gamerTag}}</span>
             </div>
           </div>
           <div class="radButtons">
-            <div class="col-sm-7">
-              <label class="radio-inline">
-                <input type="radio" name="systemOpt" id="radPS" value="syst1"> Playstation
-              </label>
-              <label class="radio-inline">
-                <input type="radio" name="systemOpt" id="radXB" value="syst2"> Xbox
-              </label>
-              <label class="radio-inline">
-                <input type="radio" name="systemOpt" id="radNT" value="syst3"> Nintendo
-              </label>
-              <label class="radio-inline">
-                <input type="radio" name="systemOpt" id="radPC" value="syst4"> PC
-              </label>
+            <div class="col-sm-6">
+              <div class="form-group" ng-model="err.platform" ng-class="{true:'has-error'} [err.platform  && !registerForm.platform.$dirty]">
+                <select class="form-control" name="console" id="platform" ng-model="user.platform">
+                  <option value="" disabled selected>Platform</option>
+                  <option value="ps4">Playstation 4</option>
+                  <option value="xbox">Xbox One</option>
+                  <option value="nintendo">Nintendo</option>
+                  <option value="pc">PC</option>
+                </select>
+                <span class="help-block" ng-show="[err.platform]">{{err.platform}}</span>
+              </div>
             </div>
           </div>
         </div>

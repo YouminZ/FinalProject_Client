@@ -10,4 +10,5 @@
 angular.module('clientApp')
   .controller('MainCtrl', function () {
     $(document).scrollTop(0);
+    
   });

@@ -1,0 +1,78 @@
+<p>This is the editprofile view.</p>
+<div ng-include src="'views/header.html'"></div>
+<div class="wideBackground">
+  <div class="container">
+    <div class="col-sm-offset-2">
+
+    <div class="registration">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Update Your Info</h1>
+        </div>
+      </div>
+      <br>
+      <!--This ng-init might be wrong-->
+      <form name="registerForm" ng-init="userBio = {}" ng-submit="editProfile()">
+
+        <div class="row">
+          <div class="col-sm-3">
+            <label>Team Name</label>
+            </div>
+          <div class="col-sm-7">
+              <input type="text" class="form-control" name="gameTeam" placeholder="Team Name" ng-model="user.gameTeam">
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-sm-3">
+            <label>Favorite Game</label>
+          </div>
+          <div class="col-sm-7">
+              <input type="text" class="form-control" name="favGame" placeholder="Favorite Game" ng-model="user.favGame">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3">
+            <label>Player Bio</label>
+          </div>
+          <div class="col-sm-7">
+            <textarea rows= "10" cols="50" class="form-control" name="playerBio" placeholder="Enter Your Bio Here" ng-model="user.playerBio">
+            </textarea>
+          </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <label>Update Email</label>
+            </div>
+            <div class="col-sm-7">
+              <input type="text" class="form-control" name="email" placeholder="Email" ng-model="user.email">
+            </div>
+          </div>
+
+        <div class="row">
+          <div class="col-sm-3">
+            <label>Update State</label>
+          </div>
+          <div class="col-sm-7">
+            <input type="text" class="form-control" name="state" placeholder="State" ng-model="user.state">
+          </div>
+        </div>
+
+          <div class="row">
+            <div class="col-sm-5">
+              <button type="submit" class="btn btn-shutterOut col-sm-12" name="submit" id="button-submit">Update</button>
+            </div>
+
+
+            <div class="col-sm-5">
+              <button type="reset" class="btn btn-shutterOut col-sm-12" name="cancel" id="button-cancel" ng-click="cancelUpdate()">Cancel</button>
+            </div>
+          </div>
+
+
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+

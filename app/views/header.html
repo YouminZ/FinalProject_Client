@@ -19,7 +19,8 @@
         <span class="icon-bar"></span>
       </button>
       <div>
-        <a class="navbar-brand brand-center" href="#/home">PoolBoy</a>
+        <a ng-show="!user" class="navbar-brand brand-center" ng-href="#/main">PoolBoy</a>
+        <a ng-show="user" class="navbar-brand brand-center" ng-href="#/mainlogin">PoolBoy</a>
       </div>
 
       <a href="/#/">
@@ -45,7 +46,7 @@
             <li><a ng-href="#/inputresults">Input Results</a></li>
           </ul>
         </li>
-        <li><a ng-href="#/player2">test</a></li>
+        <li><a ng-href="#/editprofile">test</a></li>
         <li ng-show="user"><a ng-href="#/playerprofile">My Profile</a></li>
         <li ng-show="!user"><a ng-href="#/register">Register</a></li>
         <li ng-show="user"><a ng-href="#/tournamentprofile">My Tournament</a></li>

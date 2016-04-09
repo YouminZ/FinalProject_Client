@@ -85,6 +85,15 @@ angular
         templateUrl: 'views/inputresults.html',
         controller: 'InputResultsCtrl'
       })
+
+      .when('/mainlogin', {
+        templateUrl: 'views/mainlogin.html',
+        controller: 'MainLoginCtrl'
+      })
+      .when('/editprofile', {
+        templateUrl: 'views/editprofile.html',
+        controller: 'EditprofileCtrl'
+
       .when('/tournamentprofile', {
         templateUrl: 'views/tournamentprofile.html',
         controller: 'TournamentprofileCtrl'
@@ -92,6 +101,7 @@ angular
       .when('/moregames', {
         templateUrl: 'views/moregames.html',
         controller: 'MoregamesCtrl'
+
       })
       .otherwise({
         redirectTo: '/'
