@@ -93,6 +93,7 @@ angular
       .when('/editprofile', {
         templateUrl: 'views/editprofile.html',
         controller: 'EditprofileCtrl'
+      })
 
       .when('/tournamentprofile', {
         templateUrl: 'views/tournamentprofile.html',
