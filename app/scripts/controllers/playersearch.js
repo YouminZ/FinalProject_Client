@@ -13,6 +13,7 @@ angular.module('clientApp')
     //  {gamerTag: "gamertag"}
     //];
 
+
     $scope.search = function () {
       $scope.players = [];
       $http.get('/api/searchPlayers?search_string=' +
@@ -29,9 +30,13 @@ angular.module('clientApp')
       };
 
 
+    $scope.gotoMoreProfiles = function(){
+      $location.path('/moreprofiles')
+    }
 
     $(document).scrollTop(0);
     $scope.gotoSearchTournament = function(){
       $location.path("/searchtournaments")
     }
   });
+
