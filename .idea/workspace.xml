@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61f5b092-1e0f-4a36-af5a-d7c27b0b0b8c" name="Default" comment="" />
+    <list default="true" id="c93073b1-847a-42d8-897b-a55e1fbc7393" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/moregames.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/tournamentprofile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/moregames.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tournamentprofile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/controllers/moregames.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/controllers/tournamentprofile.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/FinalProject_Client_node_modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/playersearch.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/playersearch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/searchtournaments.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/searchtournaments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/about.html" afterPath="$PROJECT_DIR$/app/views/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contactus.html" afterPath="$PROJECT_DIR$/app/views/contactus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/faqs.html" afterPath="$PROJECT_DIR$/app/views/faqs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/header.html" afterPath="$PROJECT_DIR$/app/views/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/playerprofile.html" afterPath="$PROJECT_DIR$/app/views/playerprofile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/playersearch.html" afterPath="$PROJECT_DIR$/app/views/playersearch.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/searchtournaments.html" afterPath="$PROJECT_DIR$/app/views/searchtournaments.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jscs/all/timestamp" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jscs/all/timestamp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jscs/test/timestamp" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jscs/test/timestamp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/all/timestamp" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/all/timestamp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/test/timestamp" afterPath="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/test/timestamp" />
+    </list>
     <ignored path="FinalProject_Client.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,27 +56,9 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.555555">
-              <caret line="93" column="37" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
-              <folding>
-                <marker date="1460159424274" expanded="true" signature="321:2587" placeholder="{...}" />
-                <marker date="1460159424274" expanded="true" signature="359:469" placeholder="{&quot;templateUrl&quot;: 'views/main.html'...}" />
-                <marker date="1460159424274" expanded="true" signature="493:606" placeholder="{&quot;templateUrl&quot;: 'views/about.html'...}" />
-                <marker date="1460159424274" expanded="true" signature="633:721" placeholder="{&quot;templateUrl&quot;: 'views/register.html'...}" />
-                <marker date="1460159424274" expanded="true" signature="749:839" placeholder="{&quot;templateUrl&quot;: 'views/contactus.html'...}" />
-                <marker date="1460159424274" expanded="true" signature="862:972" placeholder="{&quot;templateUrl&quot;: 'views/faqs.html'...}" />
-                <marker date="1460159424274" expanded="true" signature="998:1117" placeholder="{&quot;templateUrl&quot;: 'views/player2.html'...}" />
-                <marker date="1460159424274" expanded="true" signature="1149:1286" placeholder="{&quot;templateUrl&quot;: 'views/playerprofile.html'...}" />
-                <marker date="1460159424274" expanded="true" signature="1310:1392" placeholder="{&quot;templateUrl&quot;: 'views/login.html'...}" />
-                <marker date="1460159424274" expanded="true" signature="1426:1528" placeholder="{&quot;templateUrl&quot;: 'views/registersuccess.html'...}" />
-                <marker date="1460159424274" expanded="true" signature="1559:1655" placeholder="{&quot;templateUrl&quot;: 'views/playersearch.html'...}" />
-                <marker date="1460159424274" expanded="true" signature="1691:1797" placeholder="{&quot;templateUrl&quot;: 'views/searchtournaments.html'...}" />
-                <marker date="1460159424274" expanded="true" signature="1828:1924" placeholder="{&quot;templateUrl&quot;: 'views/playermanage.html'...}" />
-                <marker date="1460159424274" expanded="true" signature="1950:2036" placeholder="{&quot;templateUrl&quot;: 'views/optpool.html'...}" />
-                <marker date="1460159424274" expanded="true" signature="2065:2157" placeholder="{&quot;templateUrl&quot;: 'views/managepool.html'...}" />
-                <marker date="1460159424274" expanded="true" signature="2188:2284" placeholder="{&quot;templateUrl&quot;: 'views/inputresults.html'...}" />
-                <marker date="1460159424274" expanded="true" signature="2286:2579" placeholder="{&quot;templateUrl&quot;: 'views/moregames.html'...}" />
-              </folding>
+            <state vertical-scroll-proportion="-23.962963">
+              <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,8 +66,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.773585">
-              <caret line="85" column="58" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
+            <state vertical-scroll-proportion="-13.962264">
+              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,18 +76,28 @@
       <file leaf-file-name="timestamp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/grunt-newer/.cache/jscs/test/timestamp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.6296296">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="timestamp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="timestamp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/test/timestamp">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.6296296">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -94,59 +116,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/styles/main2.css" />
-        <option value="$PROJECT_DIR$/app/styles/bubbleAnimation.css" />
-        <option value="$PROJECT_DIR$/app/views/register.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/mainlogin.js" />
-        <option value="$PROJECT_DIR$/app/views/mainlogin.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
-        <option value="$PROJECT_DIR$/app/views/header.html" />
-        <option value="$PROJECT_DIR$/app/views/main.html" />
-        <option value="$PROJECT_DIR$/app/views/editprofile.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/editprofile.js" />
-        <option value="$PROJECT_DIR$/app/views/playerprofile.html" />
-        <option value="$PROJECT_DIR$/app/views/searchtournaments.html" />
+        <option value="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jscs/test/timestamp" />
+        <option value="$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/test/timestamp" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true">
-    <gruntfile path="$PROJECT_DIR$/Gruntfile.js">
-      <alias-task name="build" info="Alias for &quot;clean:dist&quot;, &quot;wiredep&quot;, &quot;useminPrepare&quot;, &quot;concurrent:dist&quot;, &quot;postcss&quot;, &quot;ngtemplates&quot;, &quot;concat&quot;, &quot;ngAnnotate&quot;, &quot;copy:dist&quot;, &quot;cdnify&quot;, &quot;cssmin&quot;, &quot;uglify&quot;, &quot;filerev&quot;, &quot;usemin&quot;, &quot;htmlmin&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
-        <dependency value="clean:dist" />
-        <dependency value="wiredep" />
-        <dependency value="useminPrepare" />
-        <dependency value="concurrent:dist" />
-        <dependency value="postcss" />
-        <dependency value="ngtemplates" />
-        <dependency value="concat" />
-        <dependency value="ngAnnotate" />
-        <dependency value="copy:dist" />
-        <dependency value="cdnify" />
-        <dependency value="cssmin" />
-        <dependency value="uglify" />
-        <dependency value="filerev" />
-        <dependency value="usemin" />
-        <dependency value="htmlmin" />
-      </alias-task>
-      <alias-task name="default" info="Alias for &quot;newer:jshint&quot;, &quot;newer:jscs&quot;, &quot;test&quot;, &quot;build&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
-        <dependency value="newer:jshint" />
-        <dependency value="newer:jscs" />
-        <dependency value="test" />
-        <dependency value="build" />
-      </alias-task>
-      <alias-task name="test" info="Alias for &quot;clean:server&quot;, &quot;wiredep&quot;, &quot;concurrent:test&quot;, &quot;postcss&quot;, &quot;connect:test&quot;, &quot;karma&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
-        <dependency value="clean:server" />
-        <dependency value="wiredep" />
-        <dependency value="concurrent:test" />
-        <dependency value="postcss" />
-        <dependency value="connect:test" />
-        <dependency value="karma" />
-      </alias-task>
-      <core-task name="configureProxies" info="Configure any specified connect proxies." file-path="$PROJECT_DIR$/node_modules/grunt-connect-proxy/tasks/connect_proxy.js" multi="false" />
-      <core-task name="serve" info="Compile then start a connect web server" file-path="$PROJECT_DIR$/Gruntfile.js" multi="false" />
-      <core-task name="server" info="DEPRECATED TASK. Use the &quot;serve&quot; task instead" file-path="$PROJECT_DIR$/Gruntfile.js" multi="false" />
-    </gruntfile>
+    <gruntfile path="$PROJECT_DIR$/Gruntfile.js" />
   </component>
   <component name="JsBuildToolPackageJson" detection-done="true">
     <package-json value="$PROJECT_DIR$/package.json" />
@@ -155,9 +133,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -184,9 +163,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,26 +205,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.sass.extensions.compass.CompassConfigurableProvider$1" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path" value="C:\Program Files (x86)\nodejs\node" />
-    <property name="js.buildTools.grunt.grunt-cli.package" value="C:\Users\Steven\AppData\Roaming\npm\node_modules\grunt-cli" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="js-jscs-package" value="C:\Users\ObseQ_000\Desktop\FinalProject_Client\node_modules\jscs" />
   </component>
@@ -265,7 +238,7 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
@@ -295,7 +268,7 @@
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
@@ -491,7 +464,7 @@
       <setting name="depsClasspath" value="false" />
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -585,7 +558,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -688,18 +661,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
-      <envs />
-      <force value="false" />
-      <verbose value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -745,7 +707,10 @@
   <component name="SbtLocalSettings">
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/../RR" value="1460046173881" />
+        <entry key="$PROJECT_DIR$/../Testing Server/FinalProject" value="1459347935510" />
+        <entry key="$PROJECT_DIR$/../Testing Server/tFinalProject/testingServer" value="1459448546319" />
+        <entry key="$PROJECT_DIR$/../Testing Server/testingFinalProject/testingServer" value="1459438360930" />
+        <entry key="$PROJECT_DIR$/../Workspace/FinalProject" value="1458235696875" />
       </map>
     </option>
     <option name="externalProjectsViewState">
@@ -753,29 +718,22 @@
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d1f1848b-bebf-45c7-967f-ba4fd84f401b" name="Default" comment="" />
-      <created>1460048745372</created>
+      <changelist id="c93073b1-847a-42d8-897b-a55e1fbc7393" name="Default" comment="" />
+      <created>1460161648818</created>
       <option name="number" value="Default" />
-      <updated>1460048745372</updated>
-      <workItem from="1460048749938" duration="85000" />
-      <workItem from="1460049249137" duration="3336000" />
-      <workItem from="1460085449159" duration="1238000" />
-      <workItem from="1460129407919" duration="20853000" />
-      <workItem from="1460155099577" duration="80000" />
+      <updated>1460161648818</updated>
+      <workItem from="1460161653807" duration="193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25631000" />
+    <option name="totallyTimeSpent" value="193000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -786,7 +744,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5131291" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -803,14 +761,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -819,52 +769,42 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.555555">
-          <caret line="93" column="37" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
-          <folding>
-            <marker date="1460159424274" expanded="true" signature="321:2587" placeholder="{...}" />
-            <marker date="1460159424274" expanded="true" signature="359:469" placeholder="{&quot;templateUrl&quot;: 'views/main.html'...}" />
-            <marker date="1460159424274" expanded="true" signature="493:606" placeholder="{&quot;templateUrl&quot;: 'views/about.html'...}" />
-            <marker date="1460159424274" expanded="true" signature="633:721" placeholder="{&quot;templateUrl&quot;: 'views/register.html'...}" />
-            <marker date="1460159424274" expanded="true" signature="749:839" placeholder="{&quot;templateUrl&quot;: 'views/contactus.html'...}" />
-            <marker date="1460159424274" expanded="true" signature="862:972" placeholder="{&quot;templateUrl&quot;: 'views/faqs.html'...}" />
-            <marker date="1460159424274" expanded="true" signature="998:1117" placeholder="{&quot;templateUrl&quot;: 'views/player2.html'...}" />
-            <marker date="1460159424274" expanded="true" signature="1149:1286" placeholder="{&quot;templateUrl&quot;: 'views/playerprofile.html'...}" />
-            <marker date="1460159424274" expanded="true" signature="1310:1392" placeholder="{&quot;templateUrl&quot;: 'views/login.html'...}" />
-            <marker date="1460159424274" expanded="true" signature="1426:1528" placeholder="{&quot;templateUrl&quot;: 'views/registersuccess.html'...}" />
-            <marker date="1460159424274" expanded="true" signature="1559:1655" placeholder="{&quot;templateUrl&quot;: 'views/playersearch.html'...}" />
-            <marker date="1460159424274" expanded="true" signature="1691:1797" placeholder="{&quot;templateUrl&quot;: 'views/searchtournaments.html'...}" />
-            <marker date="1460159424274" expanded="true" signature="1828:1924" placeholder="{&quot;templateUrl&quot;: 'views/playermanage.html'...}" />
-            <marker date="1460159424274" expanded="true" signature="1950:2036" placeholder="{&quot;templateUrl&quot;: 'views/optpool.html'...}" />
-            <marker date="1460159424274" expanded="true" signature="2065:2157" placeholder="{&quot;templateUrl&quot;: 'views/managepool.html'...}" />
-            <marker date="1460159424274" expanded="true" signature="2188:2284" placeholder="{&quot;templateUrl&quot;: 'views/inputresults.html'...}" />
-            <marker date="1460159424274" expanded="true" signature="2286:2579" placeholder="{&quot;templateUrl&quot;: 'views/moregames.html'...}" />
-          </folding>
+        <state vertical-scroll-proportion="-13.962264">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.773585">
-          <caret line="85" column="58" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
+        <state vertical-scroll-proportion="-23.962963">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/grunt-newer/.cache/jscs/test/timestamp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.6296296">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/grunt-newer/.cache/jshint/test/timestamp">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6296296">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>
