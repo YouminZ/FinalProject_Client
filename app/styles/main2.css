@@ -50,9 +50,16 @@ a:visited{
   border-top-right-radius: 0;
   background-color: #333333;
 }
-.dropdown-menu > li > a:hover{
-  background-color: #333333!important;
+
+.navbar-fixed-top .navbar-collapse{
+  max-height: 500px !important;
 }
+
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  color:#62488a !important;
+}
+
 .header{
   color: #65EA6D;
 }
@@ -171,6 +178,8 @@ a:visited{
 }
 .floated_img {
   float: left;
+  margin-bottom: 10px;
+  margin-right: 5px;
 }
 
 .sfontcolor2{
@@ -246,3 +255,5 @@ a:visited{
 .jumbotron{
   z-index: 2 !important;
 }
+
+

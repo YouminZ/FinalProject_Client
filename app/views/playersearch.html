@@ -1,11 +1,16 @@
 <div ng-include src="'views/header.html'"></div>
 <div class="wideBackground" ng-controller="PlayersearchCtrl">
   <div class="container">
-    <!--<div class="col-sm-offset-1 col-sm-10 col-sm-offset-1">-->
+    <div class="registration">
+    <div class="mainText">
     <h2 class="row header container-fluid col-sm-12 col-md-12 col-lg-12">Player Search</h2>
       <body class="col-lg-12">
-      <form class="row col-sm-12 col-md-12 col-lg-12" name="searchform" ng-submit="search()">
-        <input type="text" class="form-control" ng-model="search_string" name="gamerTag" placeholder="Gamer Tag" ng-model="user.gamerTag" >
+      <form name="searchform" ng-submit="search()">
+        <div class="row">
+          <div class="col-sm-12">
+            <input type="text" class="form-control" ng-model="search_string" name="gamerTag" placeholder="Gamer Tag">
+          </div>
+        </div>
 
         <div class="row">
           <div class="col-sm-6">
@@ -94,6 +99,7 @@
               <button class="btn btn-shutterOut col-sm-11" ng-click="gotoSearchTournament()">Search Tournaments</button>
             </div>
           </div>
+          </div>
       </section>
 
 
@@ -101,4 +107,5 @@
       </body>
   </div>
 </div>
-
+</div>
+</div>
