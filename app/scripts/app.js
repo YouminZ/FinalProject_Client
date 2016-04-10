@@ -105,6 +105,10 @@ angular
         templateUrl: 'views/moreprofiles.html',
         controller: 'MoreprofilesCtrl'
       })
+      .when('/logoutpage', {
+        templateUrl: 'views/logoutpage.html',
+        controller: 'LogoutPageCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
