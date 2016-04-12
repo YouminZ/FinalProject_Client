@@ -2,32 +2,18 @@
 <div class="wideBackground" ng-controller="PlayersearchCtrl">
   <div class="container">
     <div class="registration">
-      <div class="mainText">
-        <h2 class="row header container-fluid col-sm-12 col-md-12 col-lg-12"><center>Player Search</center></h2>
-        <body class="col-lg-12">
-        <form name="searchform" ng-submit="search()">
-          <div class="row">
-            <div class="col-sm-12">
-              <input type="text" class="form-control" ng-model="search_string" name="gamerTag" placeholder="Gamer Tag">
-            </div>
+
+    <div class="mainText">
+    <h2 class="row header container-fluid col-sm-12 col-md-12 col-lg-12"><center>Player Search</center></h2>
+      <body class="col-lg-12">
+      <form name="searchform" ng-submit="search()">
+        <div class="row">
+          <div class="col-sm-12">
+            <input type="text" class="form-control" ng-model="search_string" name="gamerTag" placeholder="Search player by Gamer Tag, First Name, Last Name, Game, or Platform">
+
+          </div>
           </div>
 
-          <div class="row">
-            <div class="col-sm-6">
-              <input type="text" class="form-control" name="firstName" placeholder="First Name" ng-model="user.firstName">
-            </div>
-            <div class="col-sm-6">
-              <input type="text" class="form-control" name="lastName" placeholder="Last Name" ng-model="user.lastName">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6">
-              <input type="text" class="form-control" name="game" placeholder="Game" ng-model="user.game">
-            </div>
-            <div class="col-sm-6">
-              <input type="text" class="form-control" name="platform" placeholder="Platform" ng-model="user.platform">
-            </div>
-          </div>
 
           <div class="col-sm-12">
             <button type="submit" class="btn btn-shutterOut col-sm-12" name="submit" id="button-submit">Search</button>
@@ -39,18 +25,20 @@
 
         <section>
 
+
+          <!--TODO: if you know how this works, please make it look good-->
           <!--TODO: if you know how this works, please make it look good-->
           <div class="container" ng-show = "players.length > 0" >
             <div class="row">
               <div class="col-md-6" ng-repeat="player in players">
-                <div class="well well-sm">
-                  <div class="media">
-                    <h4 class="media-heading">{{player.gamerTag}}</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+                <div class="well well-sm"> <div class="media">
+                  <a class="pull-left" ng-href="#/playerprofile">
+                    <img class="media-object" src="http://i.imgur.com/s0WYskZ.png" width="100" height="100"> </a>
+                    
+                  <h2 class="sfontcolor"><br><a ng-href="#/playerprofile">{{player.gamerTag}}</a></h2>
+                </div> </div> </div> </div></div>
+
+
 
           <div class="mainText">
             <div class="col-lg-12 sfontcolor"><h3><center>Top Profiles</center></h3></div>
