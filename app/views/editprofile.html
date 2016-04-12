@@ -4,41 +4,41 @@
   <div class="container">
     <div class="col-sm-offset-2">
 
-    <div class="registration">
-      <div class="row">
-        <div class="col-sm-12">
-          <h1>Update Your Info</h1>
-        </div>
-      </div>
-      <br>
-      <!--This ng-init might be wrong-->
-      <form name="registerForm" ng-init="userBio = {}" ng-submit="editProfile()">
-
+      <div class="registration">
         <div class="row">
-          <div class="col-sm-3">
-            <label>Team Name</label>
+          <div class="col-sm-12">
+            <h1>Update Your Info</h1>
+          </div>
+        </div>
+        <br>
+        <!--This ng-init might be wrong-->
+        <form name="registerForm" ng-init="userBio = {}" ng-submit="editProfile()">
+
+          <div class="row">
+            <div class="col-sm-3">
+              <label>Team Name</label>
             </div>
-          <div class="col-sm-7">
+            <div class="col-sm-7">
               <input type="text" class="form-control" name="gameTeam" placeholder="Team Name" ng-model="user.gameTeam">
             </div>
           </div>
-        <div class="row">
-          <div class="col-sm-3">
-            <label>Favorite Game</label>
-          </div>
-          <div class="col-sm-7">
+          <div class="row">
+            <div class="col-sm-3">
+              <label>Favorite Game</label>
+            </div>
+            <div class="col-sm-7">
               <input type="text" class="form-control" name="favGame" placeholder="Favorite Game" ng-model="user.favGame">
+            </div>
           </div>
-        </div>
 
-        <div class="row">
-          <div class="col-sm-3">
-            <label>Player Bio</label>
-          </div>
-          <div class="col-sm-7">
-            <textarea rows= "10" cols="50" class="form-control" name="playerBio" placeholder="Enter Your Bio Here" ng-model="user.playerBio">
-            </textarea>
-          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <label>Player Bio</label>
+            </div>
+            <div class="col-sm-7">
+              <textarea rows= "10" cols="50" class="form-control" name="playerBio" placeholder="Enter Your Bio Here" ng-model="user.playerBio">
+              </textarea>
+            </div>
           </div>
           <div class="row">
             <div class="col-sm-3">
@@ -49,14 +49,14 @@
             </div>
           </div>
 
-        <div class="row">
-          <div class="col-sm-3">
-            <label>Update State</label>
+          <div class="row">
+            <div class="col-sm-3">
+              <label>Update State</label>
+            </div>
+            <div class="col-sm-7">
+              <input type="text" class="form-control" name="state" placeholder="State" ng-model="user.state">
+            </div>
           </div>
-          <div class="col-sm-7">
-            <input type="text" class="form-control" name="state" placeholder="State" ng-model="user.state">
-          </div>
-        </div>
 
           <div class="row">
             <div class="col-sm-5">
@@ -70,9 +70,12 @@
           </div>
 
 
-      </form>
+        </form>
+      </div>
     </div>
   </div>
-</div>
+  <footer>
+    <div ng-include src="'views/footer.html'"></div>
+  </footer>
 </div>
 

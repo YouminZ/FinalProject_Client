@@ -2,110 +2,115 @@
 <div class="wideBackground" ng-controller="PlayersearchCtrl">
   <div class="container">
     <div class="registration">
-    <div class="mainText">
-    <h2 class="row header container-fluid col-sm-12 col-md-12 col-lg-12">Player Search</h2>
-      <body class="col-lg-12">
-      <form name="searchform" ng-submit="search()">
-        <div class="row">
-          <div class="col-sm-12">
-            <input type="text" class="form-control" ng-model="search_string" name="gamerTag" placeholder="Gamer Tag">
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-6">
-            <input type="text" class="form-control" name="firstName" placeholder="First Name" ng-model="user.firstName">
-          </div>
-          <div class="col-sm-6">
-            <input type="text" class="form-control" name="lastName" placeholder="Last Name" ng-model="user.lastName">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <input type="text" class="form-control" name="game" placeholder="Game" ng-model="user.game">
-          </div>
-          <div class="col-sm-6">
-            <input type="text" class="form-control" name="platform" placeholder="Platform" ng-model="user.platform">
-          </div>
-        </div>
-
-        <div class="col-sm-12">
-          <button type="submit" class="btn btn-shutterOut col-sm-12" name="submit" id="button-submit">Search</button>
-        </div>
-      </form>
-
-
-
-
-      <section>
-
-        <!--TODO: if you know how this works, please make it look good-->
-        <div class="container" ng-show = "players.length > 0" >
+      <div class="mainText">
+        <h2 class="row header container-fluid col-sm-12 col-md-12 col-lg-12"><center>Player Search</center></h2>
+        <body class="col-lg-12">
+        <form name="searchform" ng-submit="search()">
           <div class="row">
-            <div class="col-md-6" ng-repeat="player in players">
-              <div class="well well-sm">
-                <div class="media">
-                  <h4 class="media-heading">{{player.gamerTag}}</h4>
+            <div class="col-sm-12">
+              <input type="text" class="form-control" ng-model="search_string" name="gamerTag" placeholder="Gamer Tag">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <input type="text" class="form-control" name="firstName" placeholder="First Name" ng-model="user.firstName">
+            </div>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" name="lastName" placeholder="Last Name" ng-model="user.lastName">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <input type="text" class="form-control" name="game" placeholder="Game" ng-model="user.game">
+            </div>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" name="platform" placeholder="Platform" ng-model="user.platform">
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <button type="submit" class="btn btn-shutterOut col-sm-12" name="submit" id="button-submit">Search</button>
+          </div>
+        </form>
+
+
+
+
+        <section>
+
+          <!--TODO: if you know how this works, please make it look good-->
+          <div class="container" ng-show = "players.length > 0" >
+            <div class="row">
+              <div class="col-md-6" ng-repeat="player in players">
+                <div class="well well-sm">
+                  <div class="media">
+                    <h4 class="media-heading">{{player.gamerTag}}</h4>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="mainText">
-          <div class="col-lg-12 sfontcolor"><h3>Top Profiles</h3></div>
-          <div class="floated_img">
-            <a href="/#/playerprofile"><img src=images/profile_1.jpg width="224" height="157" alt="Profile Image"></a>
-            <p>Bjergsen</p>
-          </div>
-          <div class="floated_img">
-            <a href="/#/playerprofile"><img src="http://i.imgur.com/imzODLz.jpg" width="224" height="157" alt="Profile Image"></a>
-            <p>EDolley</p>
-          </div>
-          <div class="floated_img">
-            <a href="/#/playerprofile"><img src="http://i.imgur.com/W0Rjtao.jpg" width="224" height="157" alt="Profile Image"></a>
-            <p>EKHoggard</p>
-          </div>
-          <div class="floated_img">
-            <a href="/#/playerprofile"><img src="http://i.imgur.com/s0WYskZ.png" width="224" height="157" alt="Profile Image"></a>
-            <p>king_s_24</p>
-          </div>
-          <div class="floated_img">
-            <a href="/#/playerprofile"><img src="http://i.imgur.com/X2lDfCr.jpg" width="224" height="157" alt="Profile Image"></a>
-            <p>Sagimoto</p>
-          </div>
-          <div class="floated_img">
-            <a href="/#/playerprofile"><img src="http://i.imgur.com/nk4OIS9.jpg" width="224" height="157" alt="Profile Image"></a>
-            <p>FlyNest</p>
-          </div>
-          <div class="floated_img">
-            <a href="/#/playerprofile"><img src="http://i.imgur.com/xLHsZqs.jpg" width="224" height="157" alt="Profile Image"></a>
-            <p>Faker</p>
-          </div>
-          <div class="floated_img">
-            <a href="/#/playerprofile"><img src="http://i.imgur.com/9NL6oBe.jpg" width="224" height="157" alt="Profile Image"></a>
-            <p>ToSsGirl</p>
-          </div>
-          <div class="floated_img">
-            <a href="/#/playerprofile"><img src="http://i.imgur.com/bQCeHhN.jpg" width="224" height="157" alt="Profile Image"></a>
-            <p>lurppis</p>
-          </div>
-
-          <div class="row playerGrid container-fluid">
-            <div class="col-sm-6 col-md-6 col-lg-6">
-              <button class="btn btn-shutterOut col-sm-11" ng-click="gotoMoreProfiles()">More Profiles</button>
+          <div class="mainText">
+            <div class="col-lg-12 sfontcolor"><h3><center>Top Profiles</center></h3></div>
+            <div class="floated_img">
+              <a href="/#/playerprofile"><img src=images/profile_1.jpg width="224" height="157" alt="Profile Image"></a>
+              <p><center>Bjergsen</center></p>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-6">
-              <button class="btn btn-shutterOut col-sm-11" ng-click="gotoSearchTournament()">Search Tournaments</button>
+            <div class="floated_img">
+              <a href="/#/playerprofile"><img src="http://i.imgur.com/imzODLz.jpg" width="224" height="157" alt="Profile Image"></a>
+              <p><center>EDolley</center></p>
+            </div>
+            <div class="floated_img">
+              <a href="/#/playerprofile"><img src="http://i.imgur.com/W0Rjtao.jpg" width="224" height="157" alt="Profile Image"></a>
+              <p><center>EKHoggard</center></p>
+            </div>
+            <div class="floated_img">
+              <a href="/#/playerprofile"><img src="http://i.imgur.com/oRmb8dV.jpg" width="224" height="157" alt="Profile Image"></a>
+              <p><center>king_s_24</center></p>
+            </div>
+            <div class="floated_img">
+              <a href="/#/playerprofile"><img src="http://i.imgur.com/X2lDfCr.jpg" width="224" height="157" alt="Profile Image"></a>
+              <p><center>Sagimoto</center></p>
+            </div>
+            <div class="floated_img">
+              <a href="/#/playerprofile"><img src="http://vignette1.wikia.nocookie.net/borderlands/images/b/b9/Mutant_Midget_Psycho.png/revision/latest?cb=20100418152329" width="224" height="157" alt="Profile Image"></a>
+              <p><center>FlyNest</center></p>
+            </div>
+            <div class="floated_img">
+              <a href="/#/playerprofile"><img src="http://i.imgur.com/xLHsZqs.jpg" width="224" height="157" alt="Profile Image"></a>
+              <p><center>Faker</center></p>
+            </div>
+            <div class="floated_img">
+              <a href="/#/playerprofile"><img src="http://i.imgur.com/9NL6oBe.jpg" width="224" height="157" alt="Profile Image"></a>
+              <p><center>ToSsGirl</center></p>
+            </div>
+            <div class="floated_img">
+              <a href="/#/playerprofile"><img src="http://i.imgur.com/bQCeHhN.jpg" width="224" height="157" alt="Profile Image"></a>
+              <p><center>lurppis</center></p>
+            </div>
+
+            <div class="row playerGrid container-fluid">
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <button class="btn btn-shutterOut col-sm-11" ng-click="gotoMoreProfiles()">More Profiles</button>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <button class="btn btn-shutterOut col-sm-11" ng-click="gotoSearchTournament()">Search Tournaments</button>
+              </div>
             </div>
           </div>
-          </div>
-      </section>
+        </section>
 
 
 
-      </body>
+        </body>
+
+        <footer>
+          <div ng-include src="'views/footer.html'"></div>
+        </footer>
+
+      </div>
+    </div>
   </div>
-</div>
-</div>
 </div>
