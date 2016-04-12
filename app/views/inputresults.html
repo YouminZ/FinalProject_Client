@@ -1,2 +1,19 @@
 <div ng-include src="'views/header.html'"></div>
-
+<div class="wideBackground">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th ng-repeat="entrants in pool">{{player.gamerTag}}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="entrants in pool">
+                <th scope="row">{{player.gamerTag}}<th>
+                <td ng-repeat="entrants in pool">
+                    <input></input>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
