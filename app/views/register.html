@@ -34,7 +34,7 @@
               <span class="help-block" ng-show="[err.gamerTag]">{{err.gamerTag}}</span>
             </div>
           </div>
-          <div class="radButtons">
+
             <div class="col-sm-6">
               <div class="form-group" ng-model="err.platform" ng-class="{true:'has-error'} [err.platform  && !registerForm.platform.$dirty]">
                 <select class="form-control" name="console" id="platform" ng-model="user.platform">
@@ -48,7 +48,7 @@
               </div>
             </div>
           </div>
-        </div>
+
 
         <div class="row">
           <div class="col-sm-2">
@@ -279,6 +279,23 @@
         </div>
 
         <div class="row">
+          <div class="col-sm-2">
+              <input type="hidden" class="form-control" name="profilePic" placeholder="URL" ng-model="user.icon_URL">
+            </div>
+
+          <div class="col-sm-2">
+              <input type="hidden" class="form-control" name="favGame" placeholder="Favorite Game" ng-model="user.favGame">
+            </div>
+
+        <div class="col-sm-2">
+          <input type="hidden" class="form-control" name="gameTeam" placeholder="Team Name" ng-model="user.gameTeam">
+        </div>
+        <div class="col-sm-2">
+          <input type="hidden" class="form-control" name="playerBio" placeholder="Biography" ng-model="user.playerBio">
+        </div>
+          </div>
+
+        <div class="row">
           <div class="col-sm-6">
             <button type="submit" class="btn btn-shutterOut col-sm-12" name="submit" id="button-submit">Submit</button>
           </div>
@@ -287,6 +304,7 @@
             <button type="reset" class="btn btn-shutterOut col-sm-12" name="cancel" id="button-cancel" ng-click="cancelReg()">Cancel</button>
           </div>
         </div>
+
       </form>
     </div>
 
