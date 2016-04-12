@@ -12,9 +12,5 @@ angular.module('clientApp')
     $(document).scrollTop(0);
 
     $scope.user = $cookieStore.get('user');
-    console.log($scope.user);
-
-    $scope.login = function () {
-      $http.post('/api/playerprofile', $scope.authInfo).success(loginSuccess).error(loginFailure);
-    }
+    
   });
