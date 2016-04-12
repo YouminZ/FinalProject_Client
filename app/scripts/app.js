@@ -48,7 +48,7 @@ angular
         controller: 'Player2Ctrl',
         controllerAs: 'player2'
       })
-      .when('/playerprofile', {
+      .when('/playerprofile/:profile', {
         templateUrl: 'views/playerprofile.html',
         controller: 'PlayerProfileCtrl',
         controllerAs: 'playerprofile'
