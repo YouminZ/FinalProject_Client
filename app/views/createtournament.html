@@ -1,0 +1,119 @@
+<p>Create your tournament.</p>
+<div ng-include src="'views/header.html'"></div>
+<div class="wideBackground">
+  <div class="container">
+    <div class="col-sm-offset-2">
+
+      <div class="registration">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="sfontcolor">Create your tournament</h1>
+          </div>
+        </div>
+        <br>
+        <!--This ng-init might be wrong-->
+        <form name="registerForm" ng-init="tournament = {}" ng-submit="createTournament()">
+
+          <div class="row">
+            <div class="col-sm-3">
+              <label>Tournament Name</label>
+            </div>
+            <div class="col-sm-7">
+              <input type="text" class="form-control" name="tournament_name" placeholder="Name" ng-model="tournament.tournament_name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <label>Tournament Game</label>
+            </div>
+            <div class="col-sm-7">
+              <input type="text" class="form-control" name="game" placeholder="Game" ng-model="tournament.game">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3">
+              <label>Location</label>
+            </div>
+            <div class="col-sm-7">
+              <input type="text" class="form-control" name="location" placeholder="Location" ng-model="tournament.location">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3">
+              <label>Date</label>
+            </div>
+            <div class="col-sm-7">
+              <input type="text" class="form-control" name="date" placeholder="month/day/year" ng-model="tournament.date">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3">
+              <label>Tournament Organizer</label>
+            </div>
+            <div class="col-sm-7">
+              <input type="text" class="form-control" name="tOrganizer" placeholder="First Name, Last Name" ng-model="tournament.tOrganizer">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3">
+              <label>Platform</label>
+            </div>
+            <div class="col-sm-7">
+              <div class="form-group" ng-model="err.platform" ng-class="{true:'has-error'} [err.platform  && !registerForm.platform.$dirty]">
+                <select class="form-control" name="platform" id="platform" ng-model="tournament.platform">
+                  <option value="" disabled selected>Platform</option>
+                  <option value="ps4">Playstation 4</option>
+                  <option value="xbox">Xbox One</option>
+                  <option value="nintendo">Nintendo</option>
+                  <option value="pc">PC</option>
+                </select>
+                <span class="help-block" ng-show="[err.platform]">{{err.platform}}</span>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row">
+            <div class="col-sm-3">
+              <label>Tournament Details</label>
+            </div>
+            <div class="col-sm-7">
+              <textarea rows= "10" cols="50" class="form-control" name="tournamentDetail" placeholder="Enter Your Tournament Detail" ng-model="tournament.tournamentDetail">
+              </textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3">
+              <label>Tournament Image</label>
+            </div>
+            <div class="col-sm-7">
+              <input type="text" class="form-control" name="tournamentPicture" placeholder="Image URL" ng-model="tournament.tournamentPicture">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-5">
+              <button type="submit" class="btn btn-shutterOut col-sm-12" name="submit" id="button-submit">Create Tournament</button>
+            </div>
+
+
+            <div class="col-sm-5">
+              <button type="reset" class="btn btn-shutterOut col-sm-12" name="cancel" id="button-cancel" ng-click="cancelUpdate()">Cancel</button>
+            </div>
+          </div>
+
+
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div ng-include src="'views/footer.html'"></div>
+  </footer>
+</div>

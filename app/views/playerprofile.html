@@ -2,18 +2,19 @@
 <div class="wideBackground">
   <div class="container">
     <!--<div class="col-sm-offset-1 col-sm-10 col-sm-offset-1">-->
-      <h2 class="row header container-fluid">{{player.gamerTag}}'s Profile <a ng-href="#/editprofile" ng-show="user"><span class="pull-right">
+      <h2 class="row header container-fluid">{{player.gamerTag}}'s Profile <a ng-href="#/editprofile" ng-show="user">
+        <span class="pull-right">
             <span class="glyphicon glyphicon-edit">
             </span>
           </span></a></h2>
       <div class="pBackground">
         <div class="container-fluid">
           <!--Adds style color to "Player Profile"-->
-          <h2 class="container-fluid"><br></h2>
+          <br>
 
           <section class="row container-fluid">
             <!-- Fetches and displays the player profile image -->
-            <p class="col-sm-6 col-md-4 col-lg-4"><img src="http://i.imgur.com/e3znCLh.jpg" width="250" height="175" alt="Player Profile Picture."></p>
+            <p class="col-sm-6 col-md-4 col-lg-4"><img src="http://i.imgur.com/e3znCLh.jpg" width="275" height="175" alt="Player Profile Picture."></p>
             <section class="col-sm-offset-1 col-sm-3 col-md-4">
               <b class="sfontcolor">Gamer Tag:</b> {{player.gamerTag}}<br>
               <b class="sfontcolor">Name:</b> {{player.first_name}} {{player.last_name}}<br>
@@ -21,14 +22,14 @@
               <b class="sfontcolor">Team:</b> {{player.gameTeam}}<br>
               <b class="sfontcolor">Game:</b> {{player.favGame}}<br>
               <b class="sfontcolor">Platform:</b> {{player.platform}} <br>
-              <b class="sfontcolor">Nationality:</b> THIS ISN'T EVEN A FIELD, FUCKING FIX IT, SOMEONE<br>
+              <b class="sfontcolor">State:</b> {{player.state}} <br>
             </section>
-            <p class="col-sm-3"><img src=images/icon_1.png width="165" height="165" alt="League Icon."></p>
+
           </section>
 
           <section class="col-sm-8 col-md-11 col-lg-11">
-            <h3 class="sfontcolor"><b>Player Bio:</b></h3>
-            <h4><b>Generic Header, idk how to handle this</b></h4>
+            <h3 class="sfontcolor"><b>Player Biography:</b></h3>
+
             <p>{{player.playerBio}}</p><br>
 
             <!--<h4><b>2014 Preseason</b></h4>-->
