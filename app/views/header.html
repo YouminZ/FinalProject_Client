@@ -1,62 +1,63 @@
 <div ng-controller="HeaderCtrl">
-<ul class="bubbles">
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-</ul>
+  <ul class="bubbles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
 
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
-        <span class="sr-only">Toggle Navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <div>
-        <a ng-show="!user" class="navbar-brand brand-center" ng-href="#/main">PoolBoy</a>
-        <a ng-show="user" class="navbar-brand brand-center" ng-href="#/mainlogin">PoolBoy</a>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div>
+          <a ng-show="!user" class="navbar-brand brand-center" ng-href="#/main">PoolBoy</a>
+          <a ng-show="user" class="navbar-brand brand-center" ng-href="#/mainlogin">PoolBoy</a>
+        </div>
+
+        <a href="/#/">
+          <img src=images/logo.png width="55" height="50" alt="Logo">
+        </a>
+
       </div>
+      <div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+        <ul class="nav navbar-nav navbar-left">
+          <li><a ng-href="#/about">About Us</a></li>
 
-      <a href="/#/">
-        <img src=images/logo.png width="55" height="50" alt="Logo">
-      </a>
 
+          <li><a ng-href="#/contactus">Contact Us</a></li>
+          <li><a ng-href="#/faqs">FAQs</a></li>
+          <li><a ng-href="#/playersearch">Search Profiles</a></li>
+          <li><a ng-href="#/searchtournaments">Search Tournaments</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-menu-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a ng-href="#/playermanage">Player Management</a></li>
+              <li><a ng-href="#/optpool">Optimize Pool</a></li>
+              <li><a ng-href="#/managepool">Manage Pools</a></li>
+              <li><a ng-href="#/inputresults">Input Results</a></li>
+            </ul>
+          </li>
+          <li><a ng-href="#/editprofile">test</a></li>
+          <li ng-show="user"><a ng-href="#/playerprofile">My Profile</a></li>
+          <li ng-show="!user"><a ng-href="#/register">Register</a></li>
+          <li ng-show="user"><a ng-href="#/tournamentprofile">My Tournament</a></li>
+          <!--<li ng-show="!user"><a ng-href="#/login" data-toggle="modal" data-target="#login-modal">Login</a></li>-->
+          <li ng-show="!user"><a data-toggle="modal" data-target="#login-modal">Login</a></li>
+          <li ng-show="user"><a href ng-click="logout()">Logout</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
-      <ul class="nav navbar-nav navbar-left">
-        <li><a ng-href="#/about">About Us</a></li>
-
-        <li><a ng-href="#/contactus">Contact</a></li>
-        <li><a ng-href="#/faqs">FAQs</a></li>
-        <li><a ng-href="#/playersearch">Search Profiles</a></li>
-        <li><a ng-href="#/searchtournaments">Search Tournaments</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-menu-down"></i></a>
-          <ul class="dropdown-menu">
-            <li><a ng-href="#/playermanage">Player Management</a></li>
-            <li><a ng-href="#/optpool">Seeding</a></li>
-            <li><a ng-href="#/managepool">Optimize Pools</a></li>
-            <li><a ng-href="#/inputresults">Input Results</a></li>
-          </ul>
-        </li>
-        <li><a ng-href="#/editprofile">test</a></li>
-        <li ng-show="user"><a ng-href="#/playerprofile">My Profile</a></li>
-        <li ng-show="!user"><a ng-href="#/register">Register</a></li>
-        <li ng-show="user"><a ng-href="#/tournamentprofile">My Tournament</a></li>
-        <!--<li ng-show="!user"><a ng-href="#/login" data-toggle="modal" data-target="#login-modal">Login</a></li>-->
-        <li ng-show="!user"><a data-toggle="modal" data-target="#login-modal">Login</a></li>
-        <li ng-show="user"><a href ng-click="logout()">Logout</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  </nav>
 
   <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
     <div class="modal-dialog">

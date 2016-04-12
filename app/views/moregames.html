@@ -6,7 +6,7 @@
 
 
     <section>
-      <div class="col-lg-12 sfontcolor header"><h3>Choose Your Game</h3></div>
+      <div class="col-lg-12 sfontcolor header"><h2><center>Choose Your Game</center></h2></div>
       <div class="floated_img">
         <img src=images/games/leagueoflegends.PNG width="336" height="159" alt="Game Icon">
       </div>
@@ -22,7 +22,7 @@
       </div>
 
       <div class="floated_img">
-      <img src=images/games/codblackops.PNG width="336" height="159" alt="Game Icon">
+        <img src=images/games/codblackops.PNG width="336" height="159" alt="Game Icon">
       </div>
       <div class="floated_img">
         <img src=images/games/heroesofthestorm.PNG width="336" height="159" alt="Game Icon">
@@ -67,18 +67,21 @@
       </div>
 
 
-<div class="mainText">
-      <div class="row playerGrid container-fluid">
-        <div class="col-sm-6 col-md-6 col-lg-6">
-          <button class="btn btn-shutterOut col-sm-11" ng-click="gotoSearchTournament()">Back</button>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-6">
-          <button class="btn btn-shutterOut col-sm-11" ng-click="gotoPlayerSearch()">Search Profiles</button>
+      <div class="mainText">
+        <div class="row playerGrid container-fluid">
+          <div class="col-sm-6 col-md-6 col-lg-6">
+            <button class="btn btn-shutterOut col-sm-11" ng-click="gotoSearchTournament()">Back</button>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-6">
+            <button class="btn btn-shutterOut col-sm-11" ng-click="gotoPlayerSearch()">Search Profiles</button>
+          </div>
         </div>
       </div>
-</div>
     </section>
 
+    <footer>
+      <div ng-include src="'views/footer.html'"></div>
+    </footer>
 
     </body>
   </div>
