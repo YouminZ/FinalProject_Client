@@ -6,34 +6,35 @@
     <div class="pBackground">
       <div class="container-fluid">
         <!--Adds style color to "Player Profile"-->
-        <h2 class="container-fluid"><br></h2>
+        <br>
 
         <section class="row container-fluid">
           <!-- Fetches and displays the player profile image -->
-          <p class="col-sm-6 col-md-6 col-lg-6"><img src=images/games/leagueoflegends.PNG width="275" height="175" alt="Game Tournament Logo."></p>
+          <p class="col-sm-6 col-md-4 col-lg-4"><img src=images/games/leagueoflegends.PNG width="275" height="175" alt="Game Tournament Logo."></p>
           <section class="col-sm-offset-1 col-sm-5 col-md-5">
-            <b class="sfontcolor">Name:</b> tournament_name <br>
-            <b class="sfontcolor">Location:</b> location <br>
-            <b class="sfontcolor">Platform:</b> gamePlatform <br>
-            <b class="sfontcolor">Date:</b> date <br>
-            <b class="sfontcolor">Game:</b> game <br>
-            <b class="sfontcolor">Tournament Organizer:</b> first_name last_name<br>
+            <b class="sfontcolor">Name:</b> {{tournanemt.tournament_name}} <br>
+            <b class="sfontcolor">Location:</b> {{tournament.location}} <br>
+            <b class="sfontcolor">Platform:</b> {{tournament.platform}} <br>
+            <b class="sfontcolor">Date:</b> {{tournament.date}} <br>
+            <b class="sfontcolor">Game:</b> {{tournament.game}} <br>
+            <b class="sfontcolor">Tournament Organizer:</b> {{tournament.tOrganizer}}<br>
           </section>
         </section>
 
         <section class="col-sm-8 col-md-11 col-lg-11">
           <h3 class="sfontcolor"><b>Tournament Details:</b></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac elit eu neque sodales viverra. Suspendisse potenti.
-            Ut ac risus vitae orci condimentum malesuada. Ut sapien velit, gravida non pretium vel, maximus at mi. Ut at nibh vitae libero sollicitudin maximus.
-            Nunc eu eros ac nisl interdum egestas. Sed ullamcorper leo non leo eleifend euismod. Sed quis metus ut ipsum condimentum elementum et non felis.
-            Proin tempus enim id dapibus rhoncus.</p>
+          <p>{{tournament.tournamentDetail}}</p><br>
+          <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac elit eu neque sodales viverra. Suspendisse potenti.-->
+            <!--Ut ac risus vitae orci condimentum malesuada. Ut sapien velit, gravida non pretium vel, maximus at mi. Ut at nibh vitae libero sollicitudin maximus.-->
+            <!--Nunc eu eros ac nisl interdum egestas. Sed ullamcorper leo non leo eleifend euismod. Sed quis metus ut ipsum condimentum elementum et non felis.-->
+            <!--Proin tempus enim id dapibus rhoncus.</p>-->
 
 
-          <p>Aliquam sagittis luctus semper. Quisque maximus malesuada pharetra. Duis massa felis, ultricies sed enim non, pulvinar fermentum nibh.
-            Vivamus iaculis molestie lacus, ut bibendum neque faucibus et. Ut rhoncus sed magna ac feugiat. Duis rhoncus felis id ipsum congue sagittis.
-            Duis elementum dui sed efficitur viverra. Integer vitae augue egestas, tempus sapien laoreet, ullamcorper erat. Praesent vitae nisi orci.
-            Duis sollicitudin hendrerit nunc mattis lobortis. Curabitur pulvinar tincidunt diam id ultricies. Donec arcu odio, laoreet eu ultrices ac, blandit eget lectus.
-            Donec mi neque, consectetur quis mi rutrum, consequat bibendum metus.</p><br>
+          <!--<p>Aliquam sagittis luctus semper. Quisque maximus malesuada pharetra. Duis massa felis, ultricies sed enim non, pulvinar fermentum nibh.-->
+            <!--Vivamus iaculis molestie lacus, ut bibendum neque faucibus et. Ut rhoncus sed magna ac feugiat. Duis rhoncus felis id ipsum congue sagittis.-->
+            <!--Duis elementum dui sed efficitur viverra. Integer vitae augue egestas, tempus sapien laoreet, ullamcorper erat. Praesent vitae nisi orci.-->
+            <!--Duis sollicitudin hendrerit nunc mattis lobortis. Curabitur pulvinar tincidunt diam id ultricies. Donec arcu odio, laoreet eu ultrices ac, blandit eget lectus.-->
+            <!--Donec mi neque, consectetur quis mi rutrum, consequat bibendum metus.</p><br>-->
 
           <h3 class="sfontcolor"><b>Tournament Players:</b></h3>
           <table style="width:100%">
