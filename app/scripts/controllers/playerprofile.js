@@ -35,6 +35,22 @@ angular.module('clientApp')
     var profileFailure = function(data, status) {
     };
 
+    $scope.search = function () {
+      $scope.players = [];
+      $http.get('/api/searchPlayers?search_string=' +
+          $scope.search_string, null)
+        .success(searchSuccess)
+        .error(searchFailure);
+    }
+
+    var searchSuccess = function (data, status) {
+      $scope.players = data;
+    }
+
+    var searchFailure = function(data, status) {
+    };
+
+
 
 
 

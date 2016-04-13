@@ -262,9 +262,19 @@ a:visited{
   background-color: #333333;
 }
 
-.well{
-  border-color: #5F5F5F !important;
-  background-color: #5F5F5F;
+.well-sm{
+  /*border-color: #5F5F5F !important;*/
+  /*background-color: #5F5F5F;*/
+  margin-top: 30px;
+  margin-right: 30px;
 }
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+
 
 
