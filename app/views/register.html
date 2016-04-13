@@ -280,7 +280,7 @@
 
         <div class="row">
           <div class="col-sm-2">
-              <input type="hidden" value="http://connectwithcharles.com/wp-content/uploads/blank-profile-picture-300x280.jpg" class="form-control" name="icon_URL" placeholder="URL" ng-model="user.icon_URL">
+              <input type="hidden" ng-init="user.icon_URL='http://connectwithcharles.com/wp-content/uploads/blank-profile-picture-300x280.jpg'" id="url" class="form-control" name="icon_URL" placeholder="URL" ng-model="user.icon_URL">
             </div>
 
           <div class="col-sm-2">

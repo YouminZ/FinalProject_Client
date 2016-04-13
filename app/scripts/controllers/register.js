@@ -23,9 +23,13 @@ angular.module('clientApp')
             }
           })
           .success(function(data, status){
-            $location.path("/playerprofile/"+ user.gamerTag);
+            $location.path("/registersuccess");
           })
       }
+
+
+   
+
 
     $scope.cancelReg = function(){
       $location.path("/main");
