@@ -3,39 +3,25 @@
   <div class="container">
     <div class="registration">
       <div class="mainText">
-        <h2 class="row header container-fluid col-sm-12 col-md-12 col-lg-12"><center>Tournament Search</center></h2>
+        <h2 class="row sfontcolor container-fluid col-sm-12 col-md-12 col-lg-12"><center>Tournament Search</center></h2>
         <body class="col-lg-12">
         <form name="searchform" ng-submit="search()">
           <div class="row">
             <div class="col-sm-12">
-              <input type="text" class="form-control" name="tournamentName" placeholder="Tournament Name" ng-model="user.tournamentName">
+              <input type="text" class="form-control" ng-model="search_string" name="tournament_name" placeholder="Search tournaments by Name or Game">
+
             </div>
           </div>
 
-
-          <div class="row">
-            <div class="col-sm-6">
-              <input type="text" class="form-control" name="location" placeholder="Location" ng-model="user.location">
-            </div>
-            <div class="col-sm-6">
-              <input type="text" class="form-control" name="game" placeholder="Game" ng-model="user.game">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6">
-              <input type="text" class="form-control" name="playform" placeholder="Platform" ng-model="user.platform">
-            </div>
-            <div class="col-sm-6">
-              <input type="text" class="form-control" name="year" placeholder="Year" ng-model="user.year">
-            </div>
-          </div>
 
           <div class="col-sm-12">
             <button type="submit" class="btn btn-shutterOut col-sm-12" name="submit" id="button-submit">Search</button>
           </div>
         </form>
+
         <section>
           <div class="col-lg-12 sfontcolor"><h3><center>Choose Your Game</center></h3></div>
+
           <div class="floated_img">
             <img src=images/games/leagueoflegends.PNG width="336" height="159" alt="Game Icon">
           </div>
@@ -47,9 +33,10 @@
           </div>
           <div class="floated_img">
             <img src=images/games/smashbros.jpg width="336" height="159" alt="Game Icon">
-          </div>      <div class="floated_img">
-          <img src=images/games/codblackops.PNG width="336" height="159" alt="Game Icon">
-        </div>
+          </div>
+          <div class="floated_img">
+            <img src=images/games/codblackops.PNG width="336" height="159" alt="Game Icon">
+          </div>
           <div class="floated_img">
             <img src=images/games/heroesofthestorm.PNG width="336" height="159" alt="Game Icon">
           </div>

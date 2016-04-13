@@ -109,6 +109,10 @@ angular
         templateUrl: 'views/logoutpage.html',
         controller: 'LogoutPageCtrl'
       })
+      .when('/createtournament', {
+        templateUrl: 'views/createtournament.html',
+        controller: 'CreatetournamentCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
