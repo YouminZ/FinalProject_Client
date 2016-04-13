@@ -34,6 +34,7 @@ angular.module('clientApp')
           $location.path("/playerprofile/" + $scope.user.gamerTag);
         })
     }
+    
 
 
 //THIS BREAKS EVERYTHING
