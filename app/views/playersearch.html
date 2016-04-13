@@ -9,7 +9,7 @@
       <form name="searchform" ng-submit="search()">
         <div class="row">
           <div class="col-sm-12">
-            <input type="text" class="form-control" ng-model="search_string" name="gamerTag" placeholder="Search player by Gamer Tag, First Name, Last Name, Game, or Platform">
+            <input type="text" class="form-control" ng-model="search_string" name="gamerTag" placeholder="Search player by Gamer Tag or First Name">
 
           </div>
           </div>
@@ -23,20 +23,25 @@
 
 
 
-        <section>
 
+      <section>
 
           <!--TODO: if you know how this works, please make it look good-->
           <!--TODO: if you know how this works, please make it look good-->
           <div class="container" ng-show = "players.length > 0" >
             <div class="row">
-              <div class="col-md-6" ng-repeat="player in players">
-                <div class="well well-sm"> <div class="media">
-                  <a class="pull-left" ng-href="#/playerprofile">
+              <div class="col-sm-4" ng-repeat="player in players">
+                <div class="well-sm"> <div class="media">
+                  <center>
+                  <a ng-href="#/playerprofile/{{player.gamerTag}}">
                     <img class="media-object" src="http://i.imgur.com/s0WYskZ.png" width="100" height="100"> </a>
-
-                  <h2 class="sfontcolor"><br><a ng-href="#/playerprofile/{{player.gamerTag}}">{{player.gamerTag}}</a></h2>
-                </div> </div> </div> </div></div>
+                  </center>
+                  <center><h4 class="sfontcolor"><br><a ng-href="#/playerprofile/{{player.gamerTag}}">{{player.gamerTag}}</a></h4></center>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
 

@@ -36,7 +36,7 @@ angular.module('clientApp')
     var loginSuccess = function(data, status){
       $cookieStore.put('user', data);
       $http.defaults.headers.common['X-AUTH-TOKEN'] = data.token;
-      $location.path("playerprofile");
+      $location.path("mainlogin");
     }
 
     var loginFailure = function(data, status){
