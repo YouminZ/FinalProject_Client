@@ -14,7 +14,8 @@
 
           <section class="row container-fluid">
             <!-- Fetches and displays the player profile image -->
-            <p class="col-sm-6 col-md-4 col-lg-4"><img src="http://i.imgur.com/e3znCLh.jpg" width="275" height="175" alt="Player Profile Picture."></p>
+            <p class="col-sm-6 col-md-4 col-lg-4"><img src="{{player.icon_URL}}" width="275" height="175" alt="Player Profile Picture."></p>
+            <!--<img src="http://i.imgur.com/DiU9KQO.jpg" title="source: imgur.com" /></a>-->
             <section class="col-sm-offset-1 col-sm-3 col-md-4">
               <b class="sfontcolor">Gamer Tag:</b> {{player.gamerTag}}<br>
               <b class="sfontcolor">Name:</b> {{player.first_name}} {{player.last_name}}<br>

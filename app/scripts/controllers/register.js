@@ -23,7 +23,7 @@ angular.module('clientApp')
             }
           })
           .success(function(data, status){
-            $location.path("/registersuccess");
+            $location.path("/playerprofile/"+ user.gamerTag);
           })
       }
 
