@@ -56,9 +56,24 @@ a:visited{
 }
 
 
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-  color:#62488a !important;
+.dropdown .dropdown-menu > li > a:hover{
+  background: #62488A ;
+  color: snow !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
 }
+
+
+
 
 .header{
   color: #65EA6D;

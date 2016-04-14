@@ -9,18 +9,18 @@
             <div class="row">
               <div class="col-sm-6">
                 <label><h3>Tag</h3></label>
-                <input type="text" class="form-control" placeholder="Tag">
+                <input type="text" class="form-control" placeholder="Tag" ng-model="gamerTag">
               </div>
               <div class="col-sm-6">
                 <label><h3>Crew</h3></label>
-                <input type="text" class="form-control" placeholder="Crew">
+                <input type="text" class="form-control" placeholder="Crew" ng-model="gameTeam">
               </div>
             </div>
 
               <div class="row">
                 <div class="col-sm-6">
                   <label><h3>State</h3></label>
-                  <select class="form-control" id="state">
+                  <select class="form-control" id="state" ng-model="state">
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
                     <option value="AZ">Arizona</option>
@@ -76,7 +76,7 @@
                 </div>
                 <div class="col-sm-6">
                   <label><h3>Region</h3></label>
-                  <select class="form-control" id="region">
+                  <select class="form-control" id="region" ng-model="region">
                     <option value="North">North</option>
                     <option value="South">South</option>
                     <option value="East">East</option>
@@ -96,11 +96,18 @@
 <div class="container">
     <div class="jumbotron">
       <h2 class="sfontcolor"><center class="row container-fluid col-sm-12"></center>Seeding</h2sfontcolor></h2>
-      <table style="width:100%">
+      <table style="width:100%" class="table table-bordered table-hover">
+        <tr class="sfontcolor">
+          <td>Player</td>
+          <td>Team</td>
+          <td>State</td>
+          <td>Region</td>
+        </tr>
         <tr>
-          <td>Jill</td>
-          <td>Smith</td>
-          <td>50</td>
+          <td>{{gamerTag}}</td>
+          <td>{{gameTeam}}</td>
+          <td>{{state}}</td>
+          <td>{{region}}</td>
         </tr>
         </table>
     </div>

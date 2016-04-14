@@ -17,7 +17,7 @@ angular.module('clientApp')
 
     $scope.cancelUpdate = function(){
       //$scope.user = $cookieStore.get('user');
-      $location.path("/playerprofile" + $scope.user.gamerTag);
+      window.history.back();
     }
 
     $scope.editProfile = function() {
